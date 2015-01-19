@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="balResMsgBuilder" class="com.bcnx.message.service.response.BalResMsgBuilder"/>
+	<bean id="cwdResMsgBuilder" class="com.bcnx.message.service.response.CwdResMsgBuilder"></bean>
+	<bean id="netResMsgBuilder" class="com.bcnx.message.service.response.NetResMsgBuilder"></bean>
+	<bean id="revResMsgBuilder" class="com.bcnx.message.service.response.RevResMsgBuilder"></bean>
+	<bean id="excResMsgBuilder" class="com.bcnx.message.service.response.ExcResMsgBuilder"></bean>
+</beans>

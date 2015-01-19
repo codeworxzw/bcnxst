@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="netResMsgChecker" class="com.bcnx.message.checker.response.NetResMsgChecker">
+		<property name="resMsgChecker" ref="excResMsgChecker"/>
+	</bean>
+	<bean id="balResMsgChecker" class="com.bcnx.message.checker.response.BalResMsgChecker">
+		<property name="resMsgChecker" ref="excResMsgChecker"/>
+	</bean>
+	<bean id="cwdResMsgChecker" class="com.bcnx.message.checker.response.CwdResMsgChecker">
+		<property name="resMsgChecker" ref="excResMsgChecker"/>
+	</bean>
+	<bean id="revResMsgChecker" class="com.bcnx.message.checker.response.RevResChecker">
+		<property name="resMsgChecker" ref="excResMsgChecker"/>
+	</bean>
+	<bean id="excResMsgChecker" class="com.bcnx.message.checker.response.ExcResChecker"/>
+</beans>

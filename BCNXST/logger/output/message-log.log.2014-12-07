@@ -1,0 +1,22 @@
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@14843672: startup date [Sun Dec 07 15:05:58 ICT 2014]; root of context hierarchy
+Loading XML bean definitions from class path resource [configuration.xml]
+Loading XML bean definitions from class path resource [netMsgContext.xml]
+Loading XML bean definitions from class path resource [balMsgContext.xml]
+Loading XML bean definitions from class path resource [cwdMsgContext.xml]
+Loading XML bean definitions from class path resource [revMsgContext.xml]
+Loading XML bean definitions from class path resource [binContext.xml]
+Loading XML bean definitions from class path resource [memberContext.xml]
+Loading XML bean definitions from class path resource [netWkContext.xml]
+Loading XML bean definitions from class path resource [cardAcctContext.xml]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@425ef7f2: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@46496daa: startup date [Sun Dec 07 15:06:10 ICT 2014]; root of context hierarchy
+Loading XML bean definitions from class path resource [configuration.xml]
+Loading XML bean definitions from class path resource [netMsgContext.xml]
+Loading XML bean definitions from class path resource [balMsgContext.xml]
+Loading XML bean definitions from class path resource [cwdMsgContext.xml]
+Loading XML bean definitions from class path resource [revMsgContext.xml]
+Loading XML bean definitions from class path resource [binContext.xml]
+Loading XML bean definitions from class path resource [memberContext.xml]
+Loading XML bean definitions from class path resource [netWkContext.xml]
+Loading XML bean definitions from class path resource [cardAcctContext.xml]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2b2a5dd1: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor]; root of factory hierarchy

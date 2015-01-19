@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="cwdMsgDao" class="com.bcnx.data.dao.CwdMsgDaoImp"/>
+	<bean id="cwdMsgService" class="com.bcnx.data.service.CwdMsgServiceImp">
+		<property name="cwdMsgDao" ref="cwdMsgDao"/>
+	</bean>
+	<bean id="cwdMsgGen" class="com.bcnx.message.service.request.CwdMsgGenImp">
+		<property name="cwdMsgService" ref="cwdMsgService"/>
+	</bean>
+</beans>

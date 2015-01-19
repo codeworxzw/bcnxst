@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<import resource="responseBuildContext.xml"/>
+	<import resource="binContext.xml"/>
+	<import resource="memberContext.xml"/>
+	<bean id= "balMsgChecker" class="com.bcnx.message.checker.request.BalMsgChecker">
+		<property name="writeISOMessage" ref="balResMsgBuilder"></property>
+		<property name="messageChecker" ref="cwdMsgChecker"></property>
+	</bean>
+	<bean id="cwdMsgChecker" class="com.bcnx.message.checker.request.CwdMsgChecker">
+		<property name="writeISOMessage" ref="cwdResMsgBuilder"></property>
+		<property name="messageChecker" ref="revMsgChecker"></property>
+	</bean>
+	<bean id="netMsgChecker" class="com.bcnx.message.checker.request.NetMsgChecker">
+		<property name="writeISOMessage" ref="netResMsgBuilder"></property>
+		<property name="messageChecker" ref="balMsgChecker"></property>
+	</bean>
+	<bean id="revMsgChecker" class="com.bcnx.message.checker.request.RevMsgChecker">
+		<property name="writeISOMessage" ref="revResMsgBuilder"></property>
+		<property name="messageChecker" ref="excMsgChecker"></property>
+	</bean>
+	<bean id="excMsgChecker" class="com.bcnx.message.checker.request.ExcMsgChecker">
+		<property name="writeISOMessage" ref="excResMsgBuilder"/>
+	</bean>
+	<bean id="routingValidation" class="com.bcnx.message.checker.request.RoutingValidationImp">
+		<property name="binService" ref="binService"></property>
+		<property name="memberService" ref="memberService"></property>
+	</bean>
+	<bean id="verifyMsgSpec" class="com.bcnx.message.checker.request.VerifyMsgSpecImp">
+		<property name="writeISOMessage" ref="excResMsgBuilder"></property>
+		<property name="routingInfoValidation" ref="routingValidation"></property>
+		<property name="messageChecker" ref="netMsgChecker"></property>
+	</bean>
+</beans>

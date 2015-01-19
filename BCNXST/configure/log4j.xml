@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+	
+	<!-- Output for Console -->
+	
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n" />
+		</layout>
+	</appender>
+
+	<!-- Output for File -->
+	<appender name="FILE" class="org.apache.log4j.CompositeRollingFileAppender">
+		<param name="File" value="logger/output/message-log.log" />
+		<param name="MaxFileSize" value="1024KB" />
+		<param name="MaxBackupIndex" value="25" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%m%n" />
+		</layout>
+	</appender>
+	
+	<!-- system debug appender -->
+	<appender name="SYSFILE" class="org.apache.log4j.CompositeRollingFileAppender">
+		<param name="File" value="logger/system/system-log.log" />
+		<param name="MaxFileSize" value="1024KB" />
+		<param name="MaxBackupIndex" value="25" />
+		<param name="DatePattern" value="'.'yyyy-MM-dd" />
+
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%-4r [%t] %-5p %c %x - %m%n" />
+		</layout>
+	</appender>
+	
+	<root>
+		<level value="INFO" />
+		<appender-ref ref="CONSOLE" />
+		<appender-ref ref="FILE" />
+		<appender-ref ref="SYSFILE"/>
+	</root>
+	
+</log4j:configuration>

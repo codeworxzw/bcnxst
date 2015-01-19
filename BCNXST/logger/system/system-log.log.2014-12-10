@@ -1,0 +1,251 @@
+0    [SwingWorker-pool-1-thread-1] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@3dedd5df: startup date [Wed Dec 10 13:12:41 ICT 2014]; root of context hierarchy
+60   [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [configuration.xml]
+138  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [netMsgContext.xml]
+185  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [balMsgContext.xml]
+201  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [cwdMsgContext.xml]
+232  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [revMsgContext.xml]
+248  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [binContext.xml]
+279  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [memberContext.xml]
+294  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [netWkContext.xml]
+310  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [cardAcctContext.xml]
+341  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [responseBuildContext.xml]
+373  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [responseCheckContext.xml]
+404  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [requestCheckContext.xml]
+419  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [responseBuildContext.xml]
+435  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+435  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+435  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+435  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+435  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+435  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [binContext.xml]
+451  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]]
+451  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]]
+451  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [memberContext.xml]
+466  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]]
+466  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]]
+529  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@692387eb: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+779  [SwingWorker-pool-1-thread-1] INFO  com.bcnx.ui.issuer.action.MessageWorker  -  >>>>>>> Server Start
+22449 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.issuer.receiver.MessageThread  - 
+------------------ Server Receive Resquest Message -----------------
+
+22449 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+ ============== Transaction Start ==============
+
+22449 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> REQUEST <<<<<<<<<<<<
+
+22459 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 02440200r>d‘(à? 
+1622541100000000
+0130000000000000
+0000121013130300
+4291131303121012
+1212106011418021
+01D0000000006621
+3543744180100000
+00001=1412101000
+0034500000434413
+00429101012001  
+      1000012   
+                
+     TESTING TER
+MINAL418A1BCEF12
+3456123A
+22459 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 30 32 34 34 30 32 30 30 72 3E 64 91 28 E0 90 00 
+31 36 32 32 35 34 31 31 30 30 30 30 30 30 30 30 
+30 31 33 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 30 31 32 31 30 31 33 31 33 30 33 30 30 
+34 32 39 31 31 33 31 33 30 33 31 32 31 30 31 32 
+31 32 31 32 31 30 36 30 31 31 34 31 38 30 32 31 
+30 31 44 30 30 30 30 30 30 30 30 30 36 36 32 31 
+33 35 34 33 37 34 34 31 38 30 31 30 30 30 30 30 
+30 30 30 30 31 3D 31 34 31 32 31 30 31 30 30 30 
+30 30 33 34 35 30 30 30 30 30 34 33 34 34 31 33 
+30 30 34 32 39 31 30 31 30 31 32 30 30 31 20 20 
+20 20 20 20 20 20 31 30 30 30 30 31 32 20 20 20 
+20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 
+20 20 20 20 20 54 45 53 54 49 4E 47 20 54 45 52 
+4D 49 4E 41 4C 34 31 38 41 31 42 43 45 46 31 32 
+33 34 35 36 31 32 33 41 
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0200]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      2]  [    16]    [2254110000000001]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      3]  [     6]    [300000]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      4]  [    12]    [000000000000]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [1210131303]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [004291]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     12]  [     6]    [131303]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     13]  [     4]    [1210]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     14]  [     4]    [1212]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     15]  [     4]    [1210]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     18]  [     4]    [6011]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     19]  [     3]    [418]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     22]  [     3]    [021]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     25]  [     2]    [01]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     28]  [     9]    [D00000000]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     32]  [     6]    [621354]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     35]  [    37]    [4418010000000001=14121010000034500000]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [434413004291]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     41]  [     8]    [01012001]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     42]  [    15]    [        1000012]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     43]  [    40]    [                        TESTING TERMINAL]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     49]  [     3]    [418]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     52]  [    16]    [A1BCEF123456123A]
+22474 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.RoutingValidationImp  - 
+>>>>>>>>>> VERIFICATION DETAIL <<<<<<<<<<
+
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.RoutingValidationImp  - ISSUER IIN [251450], ISSUER VERIFICATION ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.RoutingValidationImp  - ACQUIRER IIN [621354], ACQUIRER VERIFICATION ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.BalMsgChecker  - ============ Balance Enquiry Message ============
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 2 ] Value [2254110000000001                          ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 3 ] Value [300000                                    ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 4 ] Value [000000000000                              ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 7 ] Value [1210131303                                ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 11] Value [004291                                    ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 12] Value [131303                                    ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 13] Value [1210                                      ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 14] Value [1212                                      ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 15] Value [1210                                      ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 18] Value [6011                                      ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 19] Value [418                                       ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 22] Value [021                                       ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 25] Value [01                                        ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 28] Value [D00000000                                 ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 32] Value [621354                                    ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 35] Value [4418010000000001=14121010000034500000     ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 37] Value [434413004291                              ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 41] Value [01012001                                  ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 42] Value [        1000012                           ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 43] Value [                        TESTING TERMINAL  ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 49] Value [418                                       ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.checker.request.MessageCheckerImp  - Message Data Element [ 52] Value [A1BCEF123456123A                          ] ==> O.K
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0200]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      2]  [    16]    [2254110000000001]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      3]  [     6]    [300000]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      4]  [    12]    [000000000000]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [1210131303]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [004291]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     12]  [     6]    [131303]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     13]  [     4]    [1210]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     14]  [     4]    [1212]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     15]  [     4]    [1210]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     18]  [     4]    [6011]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     19]  [     3]    [418]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     22]  [     3]    [021]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     25]  [     2]    [01]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     28]  [     9]    [D00000000]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     32]  [     6]    [621354]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     35]  [    37]    [4418010000000001=14121010000034500000]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [434413004291]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     41]  [     8]    [01012001]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     42]  [    15]    [        1000012]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     43]  [    40]    [                        TESTING TERMINAL]
+22506 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     49]  [     3]    [418]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     52]  [    16]    [A1BCEF123456123A]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 01860210r:`.€„ 
+1622541100000000
+0130000000000000
+0000121013130300
+4291131303121012
+1060114180662135
+4374418010000000
+001=141210100000
+3450000043441300
+4291004950000101
+2001418020000141
+8C001000000000
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 30 31 38 36 30 32 31 30 72 3A 60 01 2E 80 84 00 
+31 36 32 32 35 34 31 31 30 30 30 30 30 30 30 30 
+30 31 33 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 30 30 30 31 32 31 30 31 33 31 33 30 33 30 30 
+34 32 39 31 31 33 31 33 30 33 31 32 31 30 31 32 
+31 30 36 30 31 31 34 31 38 30 36 36 32 31 33 35 
+34 33 37 34 34 31 38 30 31 30 30 30 30 30 30 30 
+30 30 31 3D 31 34 31 32 31 30 31 30 30 30 30 30 
+33 34 35 30 30 30 30 30 34 33 34 34 31 33 30 30 
+34 32 39 31 30 30 34 39 35 30 30 30 30 31 30 31 
+32 30 30 31 34 31 38 30 32 30 30 30 30 31 34 31 
+38 43 30 30 31 30 30 30 30 30 30 30 30 30 
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0210]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      2]  [    16]    [2254110000000001]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      3]  [     6]    [300000]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      4]  [    12]    [000000000000]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [1210131303]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [004291]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     12]  [     6]    [131303]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     13]  [     4]    [1210]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     15]  [     4]    [1210]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     18]  [     4]    [6011]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     19]  [     3]    [418]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     32]  [     6]    [621354]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     35]  [    37]    [4418010000000001=14121010000034500000]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [434413004291]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     38]  [     6]    [004950]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     41]  [     8]    [01012001]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     49]  [     3]    [418]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     54]  [    20]    [0001418C001000000000]
+22521 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+22553 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.message.issuer.receiver.MessageThread  - 
+============= Transaction End =============
+
+0    [SwingWorker-pool-1-thread-1] INFO  org.springframework.context.support.ClassPathXmlApplicationContext  - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@105f0e3: startup date [Wed Dec 10 13:23:38 ICT 2014]; root of context hierarchy
+63   [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [configuration.xml]
+141  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [netMsgContext.xml]
+172  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [balMsgContext.xml]
+203  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [cwdMsgContext.xml]
+219  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [revMsgContext.xml]
+250  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [binContext.xml]
+266  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [memberContext.xml]
+281  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [netWkContext.xml]
+313  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [cardAcctContext.xml]
+328  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [responseBuildContext.xml]
+360  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [responseCheckContext.xml]
+375  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [requestCheckContext.xml]
+391  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [responseBuildContext.xml]
+406  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+406  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+406  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+406  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+406  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [responseBuildContext.xml]]
+406  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [binContext.xml]
+422  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]]
+422  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [binContext.xml]]
+422  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from class path resource [memberContext.xml]
+438  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]]
+438  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in class path resource [memberContext.xml]]
+500  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1944f891: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+750  [SwingWorker-pool-1-thread-1] INFO  com.bcnx.ui.issuer.action.MessageWorker  -  >>>>>>> Server Start

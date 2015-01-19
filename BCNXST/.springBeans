@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.6.2.201410090854-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[false]]></enableImports>
+	<configs>
+		<config>connext/balMsgContext.xml</config>
+		<config>connext/responseCheckContext.xml</config>
+		<config>connext/requestCheckContext.xml</config>
+		<config>connext/netWkContext.xml</config>
+		<config>connext/memberContext.xml</config>
+		<config>connext/binContext.xml</config>
+		<config>connext/netMsgContext.xml</config>
+		<config>connext/cwdMsgContext.xml</config>
+		<config>connext/cardAcctContext.xml</config>
+		<config>connext/senderContext.xml</config>
+		<config>connext/revMsgContext.xml</config>
+		<config>connext/configuration.xml</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+	</configSets>
+</beansProjectDescription>

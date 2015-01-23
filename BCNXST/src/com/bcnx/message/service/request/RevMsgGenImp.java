@@ -65,5 +65,4 @@ public class RevMsgGenImp implements MessageGenerator {
 		isoMsg.set(90, de90);
 		return UtilPackage.addHeader(isoMsg.pack());
 	}
-
 }

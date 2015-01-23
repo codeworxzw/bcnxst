@@ -92,11 +92,10 @@ public class AcqMsgAction implements ActionListener {
 				MessageClient messageClient = new MessageClientImp();
 				messageClient.setResMsgChecker(resMsgChecker);
 				byte[] res = messageClient.runEchoClient(msg);
-				byte[] res1 = UtilPackage.extractMessage(res);
 				ISOMsg isoMsg1 = new ISOMsg();
 				isoMsg1.setPackager(MessageDefinition.getGenericPackager());
-				isoMsg1.unpack(res1);
-				String resData1 = UtilPackage.printRaw(res)+"\r\n";
+				isoMsg1.unpack(res);
+				String resData1 = UtilPackage.printRaw(UtilPackage.addHeader(res))+"\r\n";
 				String resData2 = UtilPackage.printDumpString(res)+"\r\n";
 				String resData3 = UtilPackage.printLoggerString(isoMsg1);
 				responseArea.setText("\r\n>>>>>>>>>>>>> RESPONSE <<<<<<<<<<<<<\r\n");

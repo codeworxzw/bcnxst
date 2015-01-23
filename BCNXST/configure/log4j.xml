@@ -11,10 +11,8 @@
 	</appender>
 
 	<!-- Output for File -->
-	<appender name="FILE" class="org.apache.log4j.CompositeRollingFileAppender">
+	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
 		<param name="File" value="logger/output/message-log.log" />
-		<param name="MaxFileSize" value="1024KB" />
-		<param name="MaxBackupIndex" value="25" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd" />
 
 		<layout class="org.apache.log4j.PatternLayout">
@@ -23,10 +21,8 @@
 	</appender>
 	
 	<!-- system debug appender -->
-	<appender name="SYSFILE" class="org.apache.log4j.CompositeRollingFileAppender">
+	<appender name="SYSFILE" class="org.apache.log4j.DailyRollingFileAppender">
 		<param name="File" value="logger/system/system-log.log" />
-		<param name="MaxFileSize" value="1024KB" />
-		<param name="MaxBackupIndex" value="25" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd" />
 
 		<layout class="org.apache.log4j.PatternLayout">

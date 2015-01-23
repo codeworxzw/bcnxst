@@ -91,7 +91,6 @@ public class Application extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				System.exit(0);
 			}
-			
 		});
 	}
 

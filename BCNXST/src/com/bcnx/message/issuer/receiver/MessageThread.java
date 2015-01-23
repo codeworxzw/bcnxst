@@ -3,8 +3,6 @@ package com.bcnx.message.issuer.receiver;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.OutputStream;
 import java.net.Socket;
 
 import javax.swing.JTextArea;
@@ -32,19 +30,20 @@ public class MessageThread implements Runnable{
 	@Override
 	public void run() {	
 		try {
-			byte[] incoming = readBytes();
-			byte[] data = UtilPackage.extractMessage(incoming);
+			byte[] data = readBytes();
+			//byte[] data = UtilPackage.extractMessage(incoming);
 			ISOMsg isoMsg = new ISOMsg();
 			isoMsg.setPackager(MessageDefinition.getGenericPackager());
 			isoMsg.unpack(data);
 			// check message structure
 			logger.info("\r\n------------------ Server Receive Resquest Message -----------------\r\n");
+			byte[] incoming = UtilPackage.addHeader(data);
 			UtilPackage.printRequest(incoming);
-			UtilPackage.printDump(incoming);
+			UtilPackage.printDump(data);
 			UtilPackage.printLogger(isoMsg);
 			
 			// output to console
-			String data1 = UtilPackage.printRaw(incoming)+"\r\n";
+			String data1 = UtilPackage.printRaw(data)+"\r\n";
 			String data2 = UtilPackage.printDumpString(data)+"\r\n";
 			String data3 = UtilPackage.printLoggerString(isoMsg);
 			requestArea.setText("\r\n>>>>>>>>>>>>> REQUEST <<<<<<<<<<<<<\r\n");
@@ -69,9 +68,7 @@ public class MessageThread implements Runnable{
 			responseArea.append(data1);
 			responseArea.append(data2);
 			responseArea.append(data3);
-			
-			int len = output.length;
-			sendBytes(output,0,len);
+			sendBytes(output);
 			logger.info("\r\n============= Transaction End =============\r\n");
 		} catch (IOException e) {
 			logger.debug("IOException occur while processing message request", e);
@@ -79,26 +76,20 @@ public class MessageThread implements Runnable{
 			logger.debug("ISOException occur while processing message request",e);
 		}
 	}
-	private void sendBytes(byte[] data, int offset, int length) throws IOException {
-		if(length < 0)
-			throw new IllegalArgumentException("Negative length not allowed");
-		if(offset < 0 || offset >= data.length)
-			throw new IndexOutOfBoundsException("Out of bounds "+offset);
-		OutputStream out = socket.getOutputStream();
-		DataOutputStream dos = new DataOutputStream(out);
-		dos.writeInt(length);
-		if(length > 0)
-			dos.write(data,offset,length);
+	private void sendBytes(byte[] data) throws IOException{
+		DataOutputStream dOut = new DataOutputStream(
+				socket.getOutputStream());
+		dOut.write(data);
 	}
 	private byte[] readBytes() throws IOException{
-		InputStream in = socket.getInputStream();
-		DataInputStream dis = new DataInputStream(in);
-		int len = dis.readInt();
-	    byte[] data = new byte[len];
-	    if (len > 0) {
-	        dis.read(data);
+		DataInputStream dis = new DataInputStream(socket.getInputStream());
+	    byte blen[] = new byte[4];
+	    dis.read(blen);
+	    int len = Integer.parseInt(new String(blen));
+	    byte buf[] = new byte[len];
+	    if(len>0){
+	    	dis.readFully(buf);
 	    }
-	    return data;
+	    return buf;
 	}
-
 }

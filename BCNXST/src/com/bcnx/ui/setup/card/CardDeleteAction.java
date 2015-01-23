@@ -22,7 +22,7 @@ public class CardDeleteAction implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		ApplicationContext context = BcnxApplicationContext.getApplicationContext();
-		CardAcctService service = (CardAcctService) context.getBean("cardAccountService");
+		CardAcctService service = (CardAcctService) context.getBean("cardAcctService");
 		int i = table.getSelectedRow();
 		if(i<0){
 			JOptionPane.showMessageDialog(null, "Data No Selected", "Error Dialog", JOptionPane.ERROR_MESSAGE);

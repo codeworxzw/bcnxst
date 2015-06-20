@@ -1,0 +1,356 @@
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@149873b7: startup date [Tue Jan 20 10:56:36 ICT 2015]; root of context hierarchy
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@284c7ff4: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@24d4fdf1: startup date [Tue Jan 20 10:58:41 ICT 2015]; root of context hierarchy
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3d7bcc32: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 30 35 39 
+30 37 30 30 34 38 36 30 35 30 32 30 31 30 30 30 
+34 38 36 30 30 30 31 
+
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+00530810‚   .   
+       01201059
+0700486050201000
+486000001
+
+============ HEX DUMP ===============
+
+30 30 35 33 30 38 31 30 82 20 00 00 0A 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 30 35 39 
+30 37 30 30 34 38 36 30 35 30 32 30 31 30 30 30 
+34 38 36 30 30 30 30 30 31 
+
+---------- ISO Message Detail ----------
+
++--------+----------+---------------------------------------------+
+|   DE   |   Len    |                     Value                   |
++--------+----------+---------------------------------------------+
+[      1]  [     4]    [0810]
+[      7]  [    10]    [0120105907]
+[     11]  [     6]    [004860]
+[     37]  [    12]    [502010004860]
+[     39]  [     2]    [00]
+[     70]  [     3]    [001]
+
+-------------------------------------------------------------------
+
+DE - 07 : [0120105907                                ] ===> O.K
+DE - 11 : [004860                                    ] ===> O.K
+DE - 37 : [502010004860                              ] ===> O.K
+DE - 39 : [00                                        ] ===> O.K
+DE - 70 : [001                                       ] ===> O.K
+
+Result : SUCCESS.
+
+========== Transaction End ===========
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@7c0817a: startup date [Tue Jan 20 11:04:44 ICT 2015]; root of context hierarchy
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5550040b: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 30 34 
+35 30 30 30 31 31 30 31 35 30 32 30 31 31 30 30 
+31 31 30 31 30 30 31 
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 30 34 
+35 30 30 30 31 31 30 31 35 30 32 30 31 31 30 30 
+31 31 30 31 30 30 31 
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 30 34 
+35 30 30 30 31 31 30 31 35 30 32 30 31 31 30 30 
+31 31 30 31 30 30 31 
+
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+00530810‚   .   
+       01201104
+5000110150201100
+110100001
+
+============ HEX DUMP ===============
+
+30 30 35 33 30 38 31 30 82 20 00 00 0A 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 30 34 
+35 30 30 30 31 31 30 31 35 30 32 30 31 31 30 30 
+31 31 30 31 30 30 30 30 31 
+
+---------- ISO Message Detail ----------
+
++--------+----------+---------------------------------------------+
+|   DE   |   Len    |                     Value                   |
++--------+----------+---------------------------------------------+
+[      1]  [     4]    [0810]
+[      7]  [    10]    [0120110450]
+[     11]  [     6]    [001101]
+[     37]  [    12]    [502011001101]
+[     39]  [     2]    [00]
+[     70]  [     3]    [001]
+
+-------------------------------------------------------------------
+
+DE - 07 : [0120110450                                ] ===> O.K
+DE - 11 : [001101                                    ] ===> O.K
+DE - 37 : [502011001101                              ] ===> O.K
+DE - 39 : [00                                        ] ===> O.K
+DE - 70 : [001                                       ] ===> O.K
+
+Result : SUCCESS.
+
+========== Transaction End ===========
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 32 32 
+30 37 30 30 36 32 34 39 35 30 32 30 31 31 30 30 
+36 32 34 39 30 30 31 
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 32 32 
+30 37 30 30 36 32 34 39 35 30 32 30 31 31 30 30 
+36 32 34 39 30 30 31 
+
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+00530810‚   .   
+       01201122
+0700624950201100
+624900001
+
+============ HEX DUMP ===============
+
+30 30 35 33 30 38 31 30 82 20 00 00 0A 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 32 32 
+30 37 30 30 36 32 34 39 35 30 32 30 31 31 30 30 
+36 32 34 39 30 30 30 30 31 
+
+---------- ISO Message Detail ----------
+
++--------+----------+---------------------------------------------+
+|   DE   |   Len    |                     Value                   |
++--------+----------+---------------------------------------------+
+[      1]  [     4]    [0810]
+[      7]  [    10]    [0120112207]
+[     11]  [     6]    [006249]
+[     37]  [    12]    [502011006249]
+[     39]  [     2]    [00]
+[     70]  [     3]    [001]
+
+-------------------------------------------------------------------
+
+DE - 07 : [0120112207                                ] ===> O.K
+DE - 11 : [006249                                    ] ===> O.K
+DE - 37 : [502011006249                              ] ===> O.K
+DE - 39 : [00                                        ] ===> O.K
+DE - 70 : [001                                       ] ===> O.K
+
+Result : SUCCESS.
+
+========== Transaction End ===========
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@51eed775: startup date [Tue Jan 20 11:31:32 ICT 2015]; root of context hierarchy
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5aa5c1f: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+ >>>>>>> Server Start
+
+------------------ Server Receive Resquest Message -----------------
+
+
+ ============== Transaction Start ==============
+
+
+>>>>>>>>>>> REQUEST <<<<<<<<<<<<
+
+00510800‚      
+       01201126
+3800626650201100
+6266001
+
+============ HEX DUMP ===============
+
+30 30 35 31 30 38 30 30 82 20 00 00 08 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 32 36 
+33 38 30 30 36 32 36 36 35 30 32 30 31 31 30 30 
+36 32 36 36 30 30 31 
+
+---------- ISO Message Detail ----------
+
++--------+----------+---------------------------------------------+
+|   DE   |   Len    |                     Value                   |
++--------+----------+---------------------------------------------+
+[      1]  [     4]    [0800]
+[      7]  [    10]    [0120112638]
+[     11]  [     6]    [006266]
+[     37]  [    12]    [502011006266]
+[     70]  [     3]    [001]
+
+-------------------------------------------------------------------
+
+
+>>>>>>>>>> VERIFICATION DETAIL <<<<<<<<<<
+
+============= NetWork Message ==============
+Message Data Element [ 7 ] Value [0120112638                                ] ==> O.K
+Message Data Element [ 11] Value [006266                                    ] ==> O.K
+Message Data Element [ 37] Value [502011006266                              ] ==> O.K
+Message Data Element [ 70] Value [001                                       ] ==> O.K
+
+---------- ISO Message Detail ----------
+
++--------+----------+---------------------------------------------+
+|   DE   |   Len    |                     Value                   |
++--------+----------+---------------------------------------------+
+[      1]  [     4]    [0800]
+[      7]  [    10]    [0120112638]
+[     11]  [     6]    [006266]
+[     37]  [    12]    [502011006266]
+[     70]  [     3]    [001]
+
+-------------------------------------------------------------------
+
+
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+00530810‚   .   
+       01201126
+3800626650201100
+626600001
+
+============ HEX DUMP ===============
+
+30 30 35 33 30 38 31 30 82 20 00 00 0A 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 32 36 
+33 38 30 30 36 32 36 36 35 30 32 30 31 31 30 30 
+36 32 36 36 30 30 30 30 31 
+
+---------- ISO Message Detail ----------
+
++--------+----------+---------------------------------------------+
+|   DE   |   Len    |                     Value                   |
++--------+----------+---------------------------------------------+
+[      1]  [     4]    [0810]
+[      7]  [    10]    [0120112638]
+[     11]  [     6]    [006266]
+[     37]  [    12]    [502011006266]
+[     39]  [     2]    [00]
+[     70]  [     3]    [001]
+
+-------------------------------------------------------------------
+
+
+============ HEX DUMP ===============
+
+30 30 35 33 30 38 31 30 82 20 00 00 0A 00 00 00 
+04 00 00 00 00 00 00 00 30 31 32 30 31 31 32 36 
+33 38 30 30 36 32 36 36 35 30 32 30 31 31 30 30 
+36 32 36 36 30 30 30 30 31 
+
+============= Transaction End =============
+

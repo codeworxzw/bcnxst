@@ -37,6 +37,7 @@ public class MessageWorker extends SwingWorker<Void, Void> {
 			serverSocket = new ServerSocket(port);
 			while (true) {
 				Socket socket = serverSocket.accept();
+				socket.setKeepAlive(true);
 				MessageThread thread = new MessageThread(socket, verifyMsgSpec, requestArea,responseArea);
 				thread.run();
 			}

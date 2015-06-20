@@ -87,7 +87,7 @@ public class MessageDefinition {
 	public static String buildField35(String card){
 		String cav = cardAcctService.getCav(card);
 		String exp = cardAcctService.getExpiryDate(card);
-		String ADDITIONALDATA = "10100000"+cav+"00000";
+		String ADDITIONALDATA = "10100000"+cav;
 		return card+"="+exp+ADDITIONALDATA;
 	}
 	/**
@@ -307,7 +307,7 @@ public class MessageDefinition {
 		boolean check = memberService.checkMemberId(field32);
 		return check;
 	}
-	private static String TRACK02 = "[0-9]{16,19}=[0-9]{20}";
+	private static String TRACK02 = "[0-9]{16,19}=[0-9]{12}";
 	public static boolean checkField35(String field35){
 		boolean check = true;
 		Pattern pattern = Pattern.compile(TRACK02);

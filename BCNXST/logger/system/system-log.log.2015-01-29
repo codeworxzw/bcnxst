@@ -1,0 +1,455 @@
+0    [AWT-EventQueue-0] INFO  org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@ea9de5c: startup date [Thu Jan 29 14:58:12 ICT 2015]; root of context hierarchy
+45   [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+238  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+267  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+300  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+325  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+342  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+356  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+371  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+388  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+403  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+420  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+443  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+465  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+477  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+478  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+478  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+478  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+479  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+479  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+491  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+491  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+491  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+503  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+504  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+556  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3d894c74: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+0    [AWT-EventQueue-0] INFO  org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@149873b7: startup date [Thu Jan 29 16:16:25 ICT 2015]; root of context hierarchy
+50   [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+244  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+284  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+301  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+318  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+334  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+349  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+363  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+381  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+398  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+413  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+428  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+446  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+463  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+464  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+465  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+465  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+466  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+467  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+478  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+478  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+479  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+490  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+491  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+543  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@60ac8067: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+34522 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+34524 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 0810‚   .      
+    012916165900
+3425502916003425
+00001
+34524 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+34526 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 30 38 31 30 82 20 00 00 0A 00 00 00 04 00 00 00 
+00 00 00 00 30 31 32 39 31 36 31 36 35 39 30 30 
+33 34 32 35 35 30 32 39 31 36 30 30 33 34 32 35 
+30 30 30 30 31 
+34526 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+34526 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+34526 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+34526 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0810]
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [0129161659]
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [003425]
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [502916003425]
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     70]  [     3]    [001]
+34527 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 07 : [0129161659                                ] ===> O.K
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 11 : [003425                                    ] ===> O.K
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 37 : [502916003425                              ] ===> O.K
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 39 : [00                                        ] ===> O.K
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 70 : [001                                       ] ===> O.K
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+Result : SUCCESS.
+34529 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+========== Transaction End ===========
+40247 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+40250 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 0210r:`.€„ 1622
+5411100000000130
+2000000000000000
+0129161706003102
+1617060129012960
+1141806112237372
+254111000000001=
+1210101000001350
+0000502916003102
+0091250001000200
+4180200201418C00
+0500000000
+40251 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+40256 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 30 32 31 30 72 3A 60 01 2E 80 84 00 31 36 32 32 
+35 34 31 31 31 30 30 30 30 30 30 30 30 31 33 30 
+32 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 31 32 39 31 36 31 37 30 36 30 30 33 31 30 32 
+31 36 31 37 30 36 30 31 32 39 30 31 32 39 36 30 
+31 31 34 31 38 30 36 31 31 32 32 33 37 33 37 32 
+32 35 34 31 31 31 30 30 30 30 30 30 30 30 31 3D 
+31 32 31 30 31 30 31 30 30 30 30 30 31 33 35 30 
+30 30 30 30 35 30 32 39 31 36 30 30 33 31 30 32 
+30 30 39 31 32 35 30 30 30 31 30 30 30 32 30 30 
+34 31 38 30 32 30 30 32 30 31 34 31 38 43 30 30 
+30 35 30 30 30 30 30 30 30 30 
+40256 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+40256 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+40256 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+40256 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+40256 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0210]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      2]  [    16]    [2254111000000001]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      3]  [     6]    [302000]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      4]  [    12]    [000000000000]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [0129161706]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [003102]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     12]  [     6]    [161706]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     13]  [     4]    [0129]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     15]  [     4]    [0129]
+40257 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     18]  [     4]    [6011]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     19]  [     3]    [418]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     32]  [     6]    [112237]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     35]  [    37]    [2254111000000001=12101010000013500000]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [502916003102]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     38]  [     6]    [009125]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     41]  [     8]    [01000200]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     49]  [     3]    [418]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     54]  [    20]    [0201418C000500000000]
+40258 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 02 : [2254111000000001                          ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 03 : [302000                                    ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 04 : [000000000000                              ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 07 : [0129161706                                ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 11 : [003102                                    ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 12 : [161706                                    ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 13 : [0129                                      ] ===> O.K
+40260 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 15 : [0129                                      ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 18 : [6011                                      ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 19 : [418                                       ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 32 : [112237                                    ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 35 : [2254111000000001=12101010000013500000     ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 37 : [502916003102                              ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 38 : [009125                                    ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 39 : [00                                        ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 41 : [01000200                                  ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 54 : [0201418C000500000000                      ] ===> O.K
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+Result : SUCCESS.
+40261 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+========== Transaction End ===========
+0    [AWT-EventQueue-0] INFO  org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@2b204e1b: startup date [Thu Jan 29 16:17:19 ICT 2015]; root of context hierarchy
+42   [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+200  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+241  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+259  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+278  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+296  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+317  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+335  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+352  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+372  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+389  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+407  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+424  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+437  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+438  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+438  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+438  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+439  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+439  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+451  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+451  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+452  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+466  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+467  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+513  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2ff0a8a4: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+8722 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+8724 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 0810‚   .      
+    012916172700
+7461502916007461
+00002
+8724 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 30 38 31 30 82 20 00 00 0A 00 00 00 04 00 00 00 
+00 00 00 00 30 31 32 39 31 36 31 37 32 37 30 30 
+37 34 36 31 35 30 32 39 31 36 30 30 37 34 36 31 
+30 30 30 30 32 
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0810]
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [0129161727]
+8726 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [007461]
+8727 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [502916007461]
+8727 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+8727 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     70]  [     3]    [002]
+8727 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+8728 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 07 : [0129161727                                ] ===> O.K
+8729 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 11 : [007461                                    ] ===> O.K
+8729 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 37 : [502916007461                              ] ===> O.K
+8729 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 39 : [00                                        ] ===> O.K
+8729 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 70 : [002                                       ] ===> O.K
+8729 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+Result : SUCCESS.
+8729 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+========== Transaction End ===========
+33023 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+33025 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 0810‚   .      
+    012916175200
+6781502916006781
+00301
+33025 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 30 38 31 30 82 20 00 00 0A 00 00 00 04 00 00 00 
+00 00 00 00 30 31 32 39 31 36 31 37 35 32 30 30 
+36 37 38 31 35 30 32 39 31 36 30 30 36 37 38 31 
+30 30 33 30 31 
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0810]
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [0129161752]
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [006781]
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [502916006781]
+33027 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     70]  [     3]    [301]
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 07 : [0129161752                                ] ===> O.K
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 11 : [006781                                    ] ===> O.K
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 37 : [502916006781                              ] ===> O.K
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 39 : [00                                        ] ===> O.K
+33028 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 70 : [301                                       ] ===> O.K
+33029 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+Result : SUCCESS.
+33029 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+========== Transaction End ===========
+0    [SwingWorker-pool-1-thread-1] INFO  org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@a50243d: startup date [Thu Jan 29 16:18:19 ICT 2015]; root of context hierarchy
+40   [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+197  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+236  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+255  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+272  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+289  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+304  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+318  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+333  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+353  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+375  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+392  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+407  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+420  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+420  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+420  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+421  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+421  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+422  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+434  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+434  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+434  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+448  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+449  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+493  [SwingWorker-pool-1-thread-1] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@425ef7f2: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+1219 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+1223 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 0210r:`.€„ 1622
+5411100000000130
+2000000000000000
+0129161820003818
+1618200129012960
+1141806112237372
+254111000000001=
+1210101000001350
+0000502916003818
+0026290001000200
+4180200201418C00
+0500000000
+1223 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+1230 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 30 32 31 30 72 3A 60 01 2E 80 84 00 31 36 32 32 
+35 34 31 31 31 30 30 30 30 30 30 30 30 31 33 30 
+32 30 30 30 30 30 30 30 30 30 30 30 30 30 30 30 
+30 31 32 39 31 36 31 38 32 30 30 30 33 38 31 38 
+31 36 31 38 32 30 30 31 32 39 30 31 32 39 36 30 
+31 31 34 31 38 30 36 31 31 32 32 33 37 33 37 32 
+32 35 34 31 31 31 30 30 30 30 30 30 30 30 31 3D 
+31 32 31 30 31 30 31 30 30 30 30 30 31 33 35 30 
+30 30 30 30 35 30 32 39 31 36 30 30 33 38 31 38 
+30 30 32 36 32 39 30 30 30 31 30 30 30 32 30 30 
+34 31 38 30 32 30 30 32 30 31 34 31 38 43 30 30 
+30 35 30 30 30 30 30 30 30 30 
+1230 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+1230 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+1230 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+1230 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+1230 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0210]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      2]  [    16]    [2254111000000001]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      3]  [     6]    [302000]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      4]  [    12]    [000000000000]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [0129161820]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [003818]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     12]  [     6]    [161820]
+1231 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     13]  [     4]    [0129]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     15]  [     4]    [0129]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     18]  [     4]    [6011]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     19]  [     3]    [418]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     32]  [     6]    [112237]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     35]  [    37]    [2254111000000001=12101010000013500000]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [502916003818]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     38]  [     6]    [002629]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     41]  [     8]    [01000200]
+1232 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     49]  [     3]    [418]
+1233 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - [     54]  [    20]    [0201418C000500000000]
+1233 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+1235 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 02 : [2254111000000001                          ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 03 : [302000                                    ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 04 : [000000000000                              ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 07 : [0129161820                                ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 11 : [003818                                    ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 12 : [161820                                    ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 13 : [0129                                      ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 15 : [0129                                      ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 18 : [6011                                      ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 19 : [418                                       ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 32 : [112237                                    ] ===> O.K
+1236 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 35 : [2254111000000001=12101010000013500000     ] ===> O.K
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 37 : [502916003818                              ] ===> O.K
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 38 : [002629                                    ] ===> O.K
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 39 : [00                                        ] ===> O.K
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 41 : [01000200                                  ] ===> O.K
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - DE - 54 : [0201418C000500000000                      ] ===> O.K
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+Result : SUCCESS.
+1237 [SwingWorker-pool-1-thread-1] INFO  com.bcnx.application.utility.UtilPackage  - 
+========== Transaction End ===========
+33191 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+>>>>>>>>>>> RESPONSE <<<<<<<<<<<<
+
+33195 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 0210r:`.€„ 1622
+5411000000000101
+2000000050000000
+0129161852008685
+1618520129012960
+1141806112238372
+254110000000001=
+1203101000002130
+0000502916008685
+0081370001000210
+4180200201418C00
+0649860000
+33195 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+============ HEX DUMP ===============
+
+33200 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 30 32 31 30 72 3A 60 01 2E 80 84 00 31 36 32 32 
+35 34 31 31 30 30 30 30 30 30 30 30 30 31 30 31 
+32 30 30 30 30 30 30 30 35 30 30 30 30 30 30 30 
+30 31 32 39 31 36 31 38 35 32 30 30 38 36 38 35 
+31 36 31 38 35 32 30 31 32 39 30 31 32 39 36 30 
+31 31 34 31 38 30 36 31 31 32 32 33 38 33 37 32 
+32 35 34 31 31 30 30 30 30 30 30 30 30 30 31 3D 
+31 32 30 33 31 30 31 30 30 30 30 30 32 31 33 30 
+30 30 30 30 35 30 32 39 31 36 30 30 38 36 38 35 
+30 30 38 31 33 37 30 30 30 31 30 30 30 32 31 30 
+34 31 38 30 32 30 30 32 30 31 34 31 38 43 30 30 
+30 36 34 39 38 36 30 30 30 30 
+33200 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+---------- ISO Message Detail ----------
+
+33200 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+33200 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - |   DE   |   Len    |                     Value                   |
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - +--------+----------+---------------------------------------------+
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      1]  [     4]    [0210]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      2]  [    16]    [2254110000000001]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      3]  [     6]    [012000]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      4]  [    12]    [000050000000]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [      7]  [    10]    [0129161852]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     11]  [     6]    [008685]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     12]  [     6]    [161852]
+33201 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     13]  [     4]    [0129]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     15]  [     4]    [0129]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     18]  [     4]    [6011]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     19]  [     3]    [418]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     32]  [     6]    [112238]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     35]  [    37]    [2254110000000001=12031010000021300000]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     37]  [    12]    [502916008685]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     38]  [     6]    [008137]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     39]  [     2]    [00]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     41]  [     8]    [01000210]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     49]  [     3]    [418]
+33202 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - [     54]  [    20]    [0201418C000649860000]
+33203 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+-------------------------------------------------------------------
+
+33204 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 02 : [2254110000000001                          ] ===> O.K
+33204 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 03 : [012000                                    ] ===> O.K
+33204 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 04 : [000050000000                              ] ===> O.K
+33204 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 07 : [0129161852                                ] ===> O.K
+33204 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 11 : [008685                                    ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 12 : [161852                                    ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 13 : [0129                                      ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 15 : [0129                                      ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 18 : [6011                                      ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 19 : [418                                       ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 32 : [112238                                    ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 35 : [2254110000000001=12031010000021300000     ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 37 : [502916008685                              ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 38 : [008137                                    ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 39 : [00                                        ] ===> O.K
+33205 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 41 : [01000210                                  ] ===> O.K
+33206 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - DE - 54 : [0201418C000649860000                      ] ===> O.K
+33206 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+Result : SUCCESS.
+33206 [SwingWorker-pool-1-thread-2] INFO  com.bcnx.application.utility.UtilPackage  - 
+========== Transaction End ===========

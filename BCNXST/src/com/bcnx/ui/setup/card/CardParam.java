@@ -98,7 +98,7 @@ public class CardParam extends JPanel {
 		
 		JFormattedTextField cardText = new JFormattedTextField();
 		cardText.setColumns(10);
-		cardText.setDocument(new InputLimiter(13));
+		cardText.setDocument(new InputLimiter(21));
 		JLabel lblRequired_1 = new JLabel("required");
 		
 		JLabel lblBin = new JLabel("BIN");

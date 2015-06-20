@@ -1,8 +1,11 @@
 package com.bcnx.message.service.request;
 
+import java.util.Stack;
+
 import org.jpos.iso.ISOException;
 import org.jpos.iso.ISOMsg;
 
+import com.bcnx.application.utility.ApplicationStack;
 import com.bcnx.application.utility.UtilPackage;
 import com.bcnx.data.service.CwdMsgService;
 
@@ -62,6 +65,8 @@ public class CwdMsgGenImp implements MessageGenerator {
 		isoMsg.set(43, de43);
 		isoMsg.set(49, de49);
 		isoMsg.set(52, de52);
+		Stack<Object> stack = ApplicationStack.getStack();
+		stack.push(isoMsg);
 		return UtilPackage.addHeader(isoMsg.pack());
 	}
 

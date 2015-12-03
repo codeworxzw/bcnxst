@@ -11,7 +11,9 @@ import com.bcnx.message.service.response.WriteISOMessage;
 public class BalMsgChecker extends MessageCheckerImp implements MessageChecker{
 	private static final Logger logger = Logger.getLogger(BalMsgChecker.class);
 	private static final String TYPE = "30";
+	private static final String TYPE1 = "31";
 	private static final int[] fields = {2,3,4,7,11,12,13,14,15,18,19,22,25,28,32,35,37,41,42,43,49,52};
+	//private static final int[] fields = {2,3,4,7,11,12,13,14,15,18,22,25,28,32,35,37,41,42,43,49,52};
 	private MessageChecker messageChecker;
 	private WriteISOMessage writeISOMessage;
 	@Override
@@ -24,7 +26,8 @@ public class BalMsgChecker extends MessageCheckerImp implements MessageChecker{
 	@Override
 	public byte[] checkMessage(ISOMsg isoMsg) throws ISOException {	
 		boolean chk = checkMsgType(isoMsg, MessageDefinition.FINMTIREQ, fields, TYPE);
-		if(chk){
+		boolean chk1 = checkMsgType(isoMsg, MessageDefinition.FINMTIREQ, fields, TYPE1);
+		if(chk||chk1){
 			logger.info("============ Balance Enquiry Message ============");
 			String de02 = isoMsg.getString(02);
 			String de03 = isoMsg.getString(03);

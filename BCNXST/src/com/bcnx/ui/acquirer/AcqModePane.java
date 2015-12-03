@@ -23,6 +23,8 @@ public class AcqModePane extends JPanel {
 	private JPanel setupPane;
 	private JLabel requestLabel;
 	private JComboBox<String> requestBox;
+	private JLabel startLabel;
+	private JButton startButton;
 	private JButton submitButton;
 	private JScrollPane requestScrollPane;
 	private JTextArea requestArea;
@@ -43,6 +45,14 @@ public class AcqModePane extends JPanel {
 		requestLayout.setAlignment(FlowLayout.LEFT);
 		requestPane.add(setupPane, BorderLayout.NORTH);
 		
+		startLabel = new JLabel("START UP ");
+		startLabel.setFont(new Font("Courier New", Font.BOLD, 12));
+		setupPane.add(startLabel);
+		
+		startButton = new JButton("Start");
+		startButton.setFont(new Font("Courier New", Font.BOLD, 12));
+		setupPane.add(startButton);
+		
 		requestLabel = new JLabel("REQUEST");
 		requestLabel.setFont(new Font("Courier New", Font.BOLD, 12));
 		setupPane.add(requestLabel);
@@ -53,7 +63,7 @@ public class AcqModePane extends JPanel {
 		requestBox.setMaximumRowCount(16);
 		setupPane.add(requestBox);
 		
-		submitButton = new JButton("Submit");
+		submitButton = new JButton("Send");
 		submitButton.setFont(new Font("Courier New", Font.BOLD, 12));
 		setupPane.add(submitButton);
 		

@@ -24,7 +24,9 @@ public class Application extends JFrame {
 	private JPanel contentPane;
 
 	/**
-	 * Launch the application.
+	 * 
+	 * Launch the application
+	 * 
 	 */
 	public static void main(String[] args) {
 		Application frame = new Application();

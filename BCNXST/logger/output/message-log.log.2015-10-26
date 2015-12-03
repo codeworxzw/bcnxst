@@ -1,0 +1,1444 @@
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@49982a03: startup date [Mon Oct 26 15:37:37 ICT 2015]; root of context hierarchy
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 5 bean definitions from relative location [responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 5 bean definitions from relative location [responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Imported 0 bean definitions from relative location [responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Imported 0 bean definitions from relative location [binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Imported 0 bean definitions from relative location [memberContext.xml]
+Imported 7 bean definitions from relative location [requestCheckContext.xml]
+Loaded 37 bean definitions from location pattern [connext/configuration.xml]
+Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@49982a03: org.springframework.beans.factory.support.DefaultListableBeanFactory@7681572f: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@28835a50]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@187321aa]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7681572f: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Creating shared instance of singleton bean 'netMsgDao'
+Creating instance of bean 'netMsgDao'
+Eagerly caching bean 'netMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'netMsgDao'
+Creating shared instance of singleton bean 'netMsgService'
+Creating instance of bean 'netMsgService'
+Eagerly caching bean 'netMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netMsgDao'
+Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+Getting BeanInfo for class [com.bcnx.data.service.NetMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.NetMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de70' of type [java.lang.String]
+Found bean property 'netMsgDao' of type [com.bcnx.data.dao.NetMsgDao]
+Finished creating instance of bean 'netMsgService'
+Creating shared instance of singleton bean 'netMsgGen'
+Creating instance of bean 'netMsgGen'
+Eagerly caching bean 'netMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.NetMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.NetMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'netMsgService' of type [com.bcnx.data.service.NetMsgService]
+Finished creating instance of bean 'netMsgGen'
+Creating shared instance of singleton bean 'balMsgDao'
+Creating instance of bean 'balMsgDao'
+Eagerly caching bean 'balMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'balMsgDao'
+Creating shared instance of singleton bean 'balMsgService'
+Creating instance of bean 'balMsgService'
+Eagerly caching bean 'balMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.BalMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.BalMsgServiceImp]
+Found bean property 'balMsgDao' of type [com.bcnx.data.dao.BalMsgDao]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'de52' of type [java.lang.String]
+Finished creating instance of bean 'balMsgService'
+Creating shared instance of singleton bean 'balMsgGen'
+Creating instance of bean 'balMsgGen'
+Eagerly caching bean 'balMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.BalMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.BalMsgGenImp]
+Found bean property 'balMsgService' of type [com.bcnx.data.service.BalMsgService]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'balMsgGen'
+Creating shared instance of singleton bean 'cwdMsgDao'
+Creating instance of bean 'cwdMsgDao'
+Eagerly caching bean 'cwdMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'cwdMsgDao'
+Creating shared instance of singleton bean 'cwdMsgService'
+Creating instance of bean 'cwdMsgService'
+Eagerly caching bean 'cwdMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.CwdMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.CwdMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'cwdMsgDao' of type [com.bcnx.data.dao.CwdMsgDao]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'de52' of type [java.lang.String]
+Finished creating instance of bean 'cwdMsgService'
+Creating shared instance of singleton bean 'cwdMsgGen'
+Creating instance of bean 'cwdMsgGen'
+Eagerly caching bean 'cwdMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.CwdMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.CwdMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'cwdMsgService' of type [com.bcnx.data.service.CwdMsgService]
+Finished creating instance of bean 'cwdMsgGen'
+Creating shared instance of singleton bean 'revMsgDao'
+Creating instance of bean 'revMsgDao'
+Eagerly caching bean 'revMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'revMsgDao'
+Creating shared instance of singleton bean 'revMsgService'
+Creating instance of bean 'revMsgService'
+Eagerly caching bean 'revMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.RevMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.RevMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de39' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'revMsgDao' of type [com.bcnx.data.dao.RevMsgDao]
+Finished creating instance of bean 'revMsgService'
+Creating shared instance of singleton bean 'revMsgGen'
+Creating instance of bean 'revMsgGen'
+Eagerly caching bean 'revMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.RevMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.RevMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'revMsgService' of type [com.bcnx.data.service.RevMsgService]
+Finished creating instance of bean 'revMsgGen'
+Creating shared instance of singleton bean 'binDao'
+Creating instance of bean 'binDao'
+Eagerly caching bean 'binDao' to allow for resolving potential circular references
+Finished creating instance of bean 'binDao'
+Creating shared instance of singleton bean 'binService'
+Creating instance of bean 'binService'
+Eagerly caching bean 'binService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'binDao'
+Getting BeanInfo for class [com.bcnx.data.service.BinServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.BinServiceImp]
+Found bean property 'bin'
+Found bean property 'binDao' of type [com.bcnx.data.dao.BinDao]
+Found bean property 'binList' of type [[Ljava.lang.String;]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'binService'
+Creating shared instance of singleton bean 'memberDao'
+Creating instance of bean 'memberDao'
+Eagerly caching bean 'memberDao' to allow for resolving potential circular references
+Finished creating instance of bean 'memberDao'
+Creating shared instance of singleton bean 'memberService'
+Creating instance of bean 'memberService'
+Eagerly caching bean 'memberService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'memberDao'
+Getting BeanInfo for class [com.bcnx.data.service.MemberServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.MemberServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'member'
+Found bean property 'memberDao' of type [com.bcnx.data.dao.MemberDao]
+Found bean property 'members' of type [java.util.List]
+Finished creating instance of bean 'memberService'
+Creating shared instance of singleton bean 'netWkDao'
+Creating instance of bean 'netWkDao'
+Eagerly caching bean 'netWkDao' to allow for resolving potential circular references
+Finished creating instance of bean 'netWkDao'
+Creating shared instance of singleton bean 'netWkService'
+Creating instance of bean 'netWkService'
+Eagerly caching bean 'netWkService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netWkDao'
+Getting BeanInfo for class [com.bcnx.data.service.NetWkServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.NetWkServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'netWkDao' of type [com.bcnx.data.dao.NetWkDao]
+Finished creating instance of bean 'netWkService'
+Creating shared instance of singleton bean 'cardAcctDao'
+Creating instance of bean 'cardAcctDao'
+Eagerly caching bean 'cardAcctDao' to allow for resolving potential circular references
+Finished creating instance of bean 'cardAcctDao'
+Creating shared instance of singleton bean 'cardAcctService'
+Creating instance of bean 'cardAcctService'
+Eagerly caching bean 'cardAcctService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cardAcctDao'
+Getting BeanInfo for class [com.bcnx.data.service.CardAcctServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.CardAcctServiceImp]
+Found bean property 'cardAcctDao' of type [com.bcnx.data.dao.CardAcctDao]
+Found bean property 'cardAccts' of type [java.util.List]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'cardAcctService'
+Creating shared instance of singleton bean 'balResMsgBuilder'
+Creating instance of bean 'balResMsgBuilder'
+Eagerly caching bean 'balResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'balResMsgBuilder'
+Creating shared instance of singleton bean 'cwdResMsgBuilder'
+Creating instance of bean 'cwdResMsgBuilder'
+Eagerly caching bean 'cwdResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'cwdResMsgBuilder'
+Creating shared instance of singleton bean 'netResMsgBuilder'
+Creating instance of bean 'netResMsgBuilder'
+Eagerly caching bean 'netResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'netResMsgBuilder'
+Creating shared instance of singleton bean 'revResMsgBuilder'
+Creating instance of bean 'revResMsgBuilder'
+Eagerly caching bean 'revResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'revResMsgBuilder'
+Creating shared instance of singleton bean 'excResMsgBuilder'
+Creating instance of bean 'excResMsgBuilder'
+Eagerly caching bean 'excResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'excResMsgBuilder'
+Creating shared instance of singleton bean 'netResMsgChecker'
+Creating instance of bean 'netResMsgChecker'
+Eagerly caching bean 'netResMsgChecker' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'excResMsgChecker'
+Creating instance of bean 'excResMsgChecker'
+Eagerly caching bean 'excResMsgChecker' to allow for resolving potential circular references
+Finished creating instance of bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.NetResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.NetResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'netResMsgChecker'
+Creating shared instance of singleton bean 'balResMsgChecker'
+Creating instance of bean 'balResMsgChecker'
+Eagerly caching bean 'balResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.BalResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.BalResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'balResMsgChecker'
+Creating shared instance of singleton bean 'cwdResMsgChecker'
+Creating instance of bean 'cwdResMsgChecker'
+Eagerly caching bean 'cwdResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'cwdResMsgChecker'
+Creating shared instance of singleton bean 'revResMsgChecker'
+Creating instance of bean 'revResMsgChecker'
+Eagerly caching bean 'revResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.RevResChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.RevResChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'revResMsgChecker'
+Returning cached instance of singleton bean 'excResMsgChecker'
+Creating shared instance of singleton bean 'balMsgChecker'
+Creating instance of bean 'balMsgChecker'
+Eagerly caching bean 'balMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.BalMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.BalMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'cwdMsgChecker'
+Creating instance of bean 'cwdMsgChecker'
+Eagerly caching bean 'cwdMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.CwdMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.CwdMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'revMsgChecker'
+Creating instance of bean 'revMsgChecker'
+Eagerly caching bean 'revMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.RevMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RevMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'excMsgChecker'
+Creating instance of bean 'excMsgChecker'
+Eagerly caching bean 'excMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.ExcMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.ExcMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Finished creating instance of bean 'excMsgChecker'
+Finished creating instance of bean 'revMsgChecker'
+Finished creating instance of bean 'cwdMsgChecker'
+Finished creating instance of bean 'balMsgChecker'
+Returning cached instance of singleton bean 'cwdMsgChecker'
+Creating shared instance of singleton bean 'netMsgChecker'
+Creating instance of bean 'netMsgChecker'
+Eagerly caching bean 'netMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.NetMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.NetMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Returning cached instance of singleton bean 'balMsgChecker'
+Finished creating instance of bean 'netMsgChecker'
+Returning cached instance of singleton bean 'revMsgChecker'
+Returning cached instance of singleton bean 'excMsgChecker'
+Creating shared instance of singleton bean 'routingValidation'
+Creating instance of bean 'routingValidation'
+Eagerly caching bean 'routingValidation' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'binService'
+Getting BeanInfo for class [com.bcnx.message.checker.request.RoutingValidationImp]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RoutingValidationImp]
+Found bean property 'binService' of type [com.bcnx.data.service.BinService]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'memberService' of type [com.bcnx.data.service.MemberService]
+Returning cached instance of singleton bean 'memberService'
+Finished creating instance of bean 'routingValidation'
+Creating shared instance of singleton bean 'verifyMsgSpec'
+Creating instance of bean 'verifyMsgSpec'
+Eagerly caching bean 'verifyMsgSpec' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'routingInfoValidation' of type [com.bcnx.message.checker.request.RoutingValidation]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Returning cached instance of singleton bean 'routingValidation'
+Returning cached instance of singleton bean 'netMsgChecker'
+Finished creating instance of bean 'verifyMsgSpec'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4cd5d2ca]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.FileSystemXmlApplicationContext@49982a03: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.FileSystemXmlApplicationContext@49982a03: startup date [Mon Oct 26 15:37:37 ICT 2015]; root of context hierarchy]
+getProperty("spring.liveBeansView.mbeanDomain", String)
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'cardAcctService'
+Returning cached instance of singleton bean 'memberService'
+Returning cached instance of singleton bean 'binService'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@773e467: startup date [Mon Oct 26 15:39:38 ICT 2015]; root of context hierarchy
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 5 bean definitions from relative location [responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 5 bean definitions from relative location [responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Imported 0 bean definitions from relative location [responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Imported 0 bean definitions from relative location [binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Imported 0 bean definitions from relative location [memberContext.xml]
+Imported 7 bean definitions from relative location [requestCheckContext.xml]
+Loaded 37 bean definitions from location pattern [connext/configuration.xml]
+Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@773e467: org.springframework.beans.factory.support.DefaultListableBeanFactory@7681572f: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@28835a50]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@187321aa]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7681572f: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Creating shared instance of singleton bean 'netMsgDao'
+Creating instance of bean 'netMsgDao'
+Eagerly caching bean 'netMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'netMsgDao'
+Creating shared instance of singleton bean 'netMsgService'
+Creating instance of bean 'netMsgService'
+Eagerly caching bean 'netMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netMsgDao'
+Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+Getting BeanInfo for class [com.bcnx.data.service.NetMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.NetMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de70' of type [java.lang.String]
+Found bean property 'netMsgDao' of type [com.bcnx.data.dao.NetMsgDao]
+Finished creating instance of bean 'netMsgService'
+Creating shared instance of singleton bean 'netMsgGen'
+Creating instance of bean 'netMsgGen'
+Eagerly caching bean 'netMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.NetMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.NetMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'netMsgService' of type [com.bcnx.data.service.NetMsgService]
+Finished creating instance of bean 'netMsgGen'
+Creating shared instance of singleton bean 'balMsgDao'
+Creating instance of bean 'balMsgDao'
+Eagerly caching bean 'balMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'balMsgDao'
+Creating shared instance of singleton bean 'balMsgService'
+Creating instance of bean 'balMsgService'
+Eagerly caching bean 'balMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.BalMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.BalMsgServiceImp]
+Found bean property 'balMsgDao' of type [com.bcnx.data.dao.BalMsgDao]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'de52' of type [java.lang.String]
+Finished creating instance of bean 'balMsgService'
+Creating shared instance of singleton bean 'balMsgGen'
+Creating instance of bean 'balMsgGen'
+Eagerly caching bean 'balMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.BalMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.BalMsgGenImp]
+Found bean property 'balMsgService' of type [com.bcnx.data.service.BalMsgService]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'balMsgGen'
+Creating shared instance of singleton bean 'cwdMsgDao'
+Creating instance of bean 'cwdMsgDao'
+Eagerly caching bean 'cwdMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'cwdMsgDao'
+Creating shared instance of singleton bean 'cwdMsgService'
+Creating instance of bean 'cwdMsgService'
+Eagerly caching bean 'cwdMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.CwdMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.CwdMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'cwdMsgDao' of type [com.bcnx.data.dao.CwdMsgDao]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'de52' of type [java.lang.String]
+Finished creating instance of bean 'cwdMsgService'
+Creating shared instance of singleton bean 'cwdMsgGen'
+Creating instance of bean 'cwdMsgGen'
+Eagerly caching bean 'cwdMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.CwdMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.CwdMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'cwdMsgService' of type [com.bcnx.data.service.CwdMsgService]
+Finished creating instance of bean 'cwdMsgGen'
+Creating shared instance of singleton bean 'revMsgDao'
+Creating instance of bean 'revMsgDao'
+Eagerly caching bean 'revMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'revMsgDao'
+Creating shared instance of singleton bean 'revMsgService'
+Creating instance of bean 'revMsgService'
+Eagerly caching bean 'revMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.RevMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.RevMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de39' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'revMsgDao' of type [com.bcnx.data.dao.RevMsgDao]
+Finished creating instance of bean 'revMsgService'
+Creating shared instance of singleton bean 'revMsgGen'
+Creating instance of bean 'revMsgGen'
+Eagerly caching bean 'revMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.RevMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.RevMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'revMsgService' of type [com.bcnx.data.service.RevMsgService]
+Finished creating instance of bean 'revMsgGen'
+Creating shared instance of singleton bean 'binDao'
+Creating instance of bean 'binDao'
+Eagerly caching bean 'binDao' to allow for resolving potential circular references
+Finished creating instance of bean 'binDao'
+Creating shared instance of singleton bean 'binService'
+Creating instance of bean 'binService'
+Eagerly caching bean 'binService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'binDao'
+Getting BeanInfo for class [com.bcnx.data.service.BinServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.BinServiceImp]
+Found bean property 'bin'
+Found bean property 'binDao' of type [com.bcnx.data.dao.BinDao]
+Found bean property 'binList' of type [[Ljava.lang.String;]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'binService'
+Creating shared instance of singleton bean 'memberDao'
+Creating instance of bean 'memberDao'
+Eagerly caching bean 'memberDao' to allow for resolving potential circular references
+Finished creating instance of bean 'memberDao'
+Creating shared instance of singleton bean 'memberService'
+Creating instance of bean 'memberService'
+Eagerly caching bean 'memberService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'memberDao'
+Getting BeanInfo for class [com.bcnx.data.service.MemberServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.MemberServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'member'
+Found bean property 'memberDao' of type [com.bcnx.data.dao.MemberDao]
+Found bean property 'members' of type [java.util.List]
+Finished creating instance of bean 'memberService'
+Creating shared instance of singleton bean 'netWkDao'
+Creating instance of bean 'netWkDao'
+Eagerly caching bean 'netWkDao' to allow for resolving potential circular references
+Finished creating instance of bean 'netWkDao'
+Creating shared instance of singleton bean 'netWkService'
+Creating instance of bean 'netWkService'
+Eagerly caching bean 'netWkService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netWkDao'
+Getting BeanInfo for class [com.bcnx.data.service.NetWkServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.NetWkServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'netWkDao' of type [com.bcnx.data.dao.NetWkDao]
+Finished creating instance of bean 'netWkService'
+Creating shared instance of singleton bean 'cardAcctDao'
+Creating instance of bean 'cardAcctDao'
+Eagerly caching bean 'cardAcctDao' to allow for resolving potential circular references
+Finished creating instance of bean 'cardAcctDao'
+Creating shared instance of singleton bean 'cardAcctService'
+Creating instance of bean 'cardAcctService'
+Eagerly caching bean 'cardAcctService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cardAcctDao'
+Getting BeanInfo for class [com.bcnx.data.service.CardAcctServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.CardAcctServiceImp]
+Found bean property 'cardAcctDao' of type [com.bcnx.data.dao.CardAcctDao]
+Found bean property 'cardAccts' of type [java.util.List]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'cardAcctService'
+Creating shared instance of singleton bean 'balResMsgBuilder'
+Creating instance of bean 'balResMsgBuilder'
+Eagerly caching bean 'balResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'balResMsgBuilder'
+Creating shared instance of singleton bean 'cwdResMsgBuilder'
+Creating instance of bean 'cwdResMsgBuilder'
+Eagerly caching bean 'cwdResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'cwdResMsgBuilder'
+Creating shared instance of singleton bean 'netResMsgBuilder'
+Creating instance of bean 'netResMsgBuilder'
+Eagerly caching bean 'netResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'netResMsgBuilder'
+Creating shared instance of singleton bean 'revResMsgBuilder'
+Creating instance of bean 'revResMsgBuilder'
+Eagerly caching bean 'revResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'revResMsgBuilder'
+Creating shared instance of singleton bean 'excResMsgBuilder'
+Creating instance of bean 'excResMsgBuilder'
+Eagerly caching bean 'excResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'excResMsgBuilder'
+Creating shared instance of singleton bean 'netResMsgChecker'
+Creating instance of bean 'netResMsgChecker'
+Eagerly caching bean 'netResMsgChecker' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'excResMsgChecker'
+Creating instance of bean 'excResMsgChecker'
+Eagerly caching bean 'excResMsgChecker' to allow for resolving potential circular references
+Finished creating instance of bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.NetResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.NetResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'netResMsgChecker'
+Creating shared instance of singleton bean 'balResMsgChecker'
+Creating instance of bean 'balResMsgChecker'
+Eagerly caching bean 'balResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.BalResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.BalResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'balResMsgChecker'
+Creating shared instance of singleton bean 'cwdResMsgChecker'
+Creating instance of bean 'cwdResMsgChecker'
+Eagerly caching bean 'cwdResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'cwdResMsgChecker'
+Creating shared instance of singleton bean 'revResMsgChecker'
+Creating instance of bean 'revResMsgChecker'
+Eagerly caching bean 'revResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.RevResChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.RevResChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'revResMsgChecker'
+Returning cached instance of singleton bean 'excResMsgChecker'
+Creating shared instance of singleton bean 'balMsgChecker'
+Creating instance of bean 'balMsgChecker'
+Eagerly caching bean 'balMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.BalMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.BalMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'cwdMsgChecker'
+Creating instance of bean 'cwdMsgChecker'
+Eagerly caching bean 'cwdMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.CwdMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.CwdMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'revMsgChecker'
+Creating instance of bean 'revMsgChecker'
+Eagerly caching bean 'revMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.RevMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RevMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'excMsgChecker'
+Creating instance of bean 'excMsgChecker'
+Eagerly caching bean 'excMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.ExcMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.ExcMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Finished creating instance of bean 'excMsgChecker'
+Finished creating instance of bean 'revMsgChecker'
+Finished creating instance of bean 'cwdMsgChecker'
+Finished creating instance of bean 'balMsgChecker'
+Returning cached instance of singleton bean 'cwdMsgChecker'
+Creating shared instance of singleton bean 'netMsgChecker'
+Creating instance of bean 'netMsgChecker'
+Eagerly caching bean 'netMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.NetMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.NetMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Returning cached instance of singleton bean 'balMsgChecker'
+Finished creating instance of bean 'netMsgChecker'
+Returning cached instance of singleton bean 'revMsgChecker'
+Returning cached instance of singleton bean 'excMsgChecker'
+Creating shared instance of singleton bean 'routingValidation'
+Creating instance of bean 'routingValidation'
+Eagerly caching bean 'routingValidation' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'binService'
+Getting BeanInfo for class [com.bcnx.message.checker.request.RoutingValidationImp]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RoutingValidationImp]
+Found bean property 'binService' of type [com.bcnx.data.service.BinService]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'memberService' of type [com.bcnx.data.service.MemberService]
+Returning cached instance of singleton bean 'memberService'
+Finished creating instance of bean 'routingValidation'
+Creating shared instance of singleton bean 'verifyMsgSpec'
+Creating instance of bean 'verifyMsgSpec'
+Eagerly caching bean 'verifyMsgSpec' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'routingInfoValidation' of type [com.bcnx.message.checker.request.RoutingValidation]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Returning cached instance of singleton bean 'routingValidation'
+Returning cached instance of singleton bean 'netMsgChecker'
+Finished creating instance of bean 'verifyMsgSpec'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@4cd5d2ca]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.FileSystemXmlApplicationContext@773e467: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.FileSystemXmlApplicationContext@773e467: startup date [Mon Oct 26 15:39:38 ICT 2015]; root of context hierarchy]
+getProperty("spring.liveBeansView.mbeanDomain", String)
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'cardAcctService'
+Returning cached instance of singleton bean 'memberService'
+Returning cached instance of singleton bean 'binService'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@3721bae0: startup date [Mon Oct 26 15:45:37 ICT 2015]; root of context hierarchy
+Initializing new StandardEnvironment
+Adding [systemProperties] PropertySource with lowest search precedence
+Adding [systemEnvironment] PropertySource with lowest search precedence
+Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Loading schema mappings from [META-INF/spring.schemas]
+Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [netMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [balMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [cwdMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 3 bean definitions from relative location [revMsgContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [memberContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [netWkContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 2 bean definitions from relative location [cardAcctContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 5 bean definitions from relative location [responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Imported 5 bean definitions from relative location [responseCheckContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+Imported 0 bean definitions from relative location [responseBuildContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+Imported 0 bean definitions from relative location [binContext.xml]
+Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+Loading bean definitions
+Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+Imported 0 bean definitions from relative location [memberContext.xml]
+Imported 7 bean definitions from relative location [requestCheckContext.xml]
+Loaded 37 bean definitions from location pattern [connext/configuration.xml]
+Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@3721bae0: org.springframework.beans.factory.support.DefaultListableBeanFactory@25830b71: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@479e4ef7]
+Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@2ea72c70]
+Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@25830b71: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+Creating shared instance of singleton bean 'netMsgDao'
+Creating instance of bean 'netMsgDao'
+Eagerly caching bean 'netMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'netMsgDao'
+Creating shared instance of singleton bean 'netMsgService'
+Creating instance of bean 'netMsgService'
+Eagerly caching bean 'netMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netMsgDao'
+Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+Getting BeanInfo for class [com.bcnx.data.service.NetMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.NetMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de70' of type [java.lang.String]
+Found bean property 'netMsgDao' of type [com.bcnx.data.dao.NetMsgDao]
+Finished creating instance of bean 'netMsgService'
+Creating shared instance of singleton bean 'netMsgGen'
+Creating instance of bean 'netMsgGen'
+Eagerly caching bean 'netMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.NetMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.NetMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'netMsgService' of type [com.bcnx.data.service.NetMsgService]
+Finished creating instance of bean 'netMsgGen'
+Creating shared instance of singleton bean 'balMsgDao'
+Creating instance of bean 'balMsgDao'
+Eagerly caching bean 'balMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'balMsgDao'
+Creating shared instance of singleton bean 'balMsgService'
+Creating instance of bean 'balMsgService'
+Eagerly caching bean 'balMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.BalMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.BalMsgServiceImp]
+Found bean property 'balMsgDao' of type [com.bcnx.data.dao.BalMsgDao]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'de52' of type [java.lang.String]
+Finished creating instance of bean 'balMsgService'
+Creating shared instance of singleton bean 'balMsgGen'
+Creating instance of bean 'balMsgGen'
+Eagerly caching bean 'balMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.BalMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.BalMsgGenImp]
+Found bean property 'balMsgService' of type [com.bcnx.data.service.BalMsgService]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'balMsgGen'
+Creating shared instance of singleton bean 'cwdMsgDao'
+Creating instance of bean 'cwdMsgDao'
+Eagerly caching bean 'cwdMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'cwdMsgDao'
+Creating shared instance of singleton bean 'cwdMsgService'
+Creating instance of bean 'cwdMsgService'
+Eagerly caching bean 'cwdMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.CwdMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.CwdMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'cwdMsgDao' of type [com.bcnx.data.dao.CwdMsgDao]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'de52' of type [java.lang.String]
+Finished creating instance of bean 'cwdMsgService'
+Creating shared instance of singleton bean 'cwdMsgGen'
+Creating instance of bean 'cwdMsgGen'
+Eagerly caching bean 'cwdMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.CwdMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.CwdMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'cwdMsgService' of type [com.bcnx.data.service.CwdMsgService]
+Finished creating instance of bean 'cwdMsgGen'
+Creating shared instance of singleton bean 'revMsgDao'
+Creating instance of bean 'revMsgDao'
+Eagerly caching bean 'revMsgDao' to allow for resolving potential circular references
+Finished creating instance of bean 'revMsgDao'
+Creating shared instance of singleton bean 'revMsgService'
+Creating instance of bean 'revMsgService'
+Eagerly caching bean 'revMsgService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revMsgDao'
+Getting BeanInfo for class [com.bcnx.data.service.RevMsgServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.RevMsgServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'de02' of type [java.lang.String]
+Found bean property 'de03' of type [java.lang.String]
+Found bean property 'de04' of type [java.lang.String]
+Found bean property 'de18' of type [java.lang.String]
+Found bean property 'de19' of type [java.lang.String]
+Found bean property 'de22' of type [java.lang.String]
+Found bean property 'de25' of type [java.lang.String]
+Found bean property 'de28' of type [java.lang.String]
+Found bean property 'de32' of type [java.lang.String]
+Found bean property 'de39' of type [java.lang.String]
+Found bean property 'de41' of type [java.lang.String]
+Found bean property 'de42' of type [java.lang.String]
+Found bean property 'de43' of type [java.lang.String]
+Found bean property 'de49' of type [java.lang.String]
+Found bean property 'revMsgDao' of type [com.bcnx.data.dao.RevMsgDao]
+Finished creating instance of bean 'revMsgService'
+Creating shared instance of singleton bean 'revMsgGen'
+Creating instance of bean 'revMsgGen'
+Eagerly caching bean 'revMsgGen' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revMsgService'
+Getting BeanInfo for class [com.bcnx.message.service.request.RevMsgGenImp]
+Caching PropertyDescriptors for class [com.bcnx.message.service.request.RevMsgGenImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'revMsgService' of type [com.bcnx.data.service.RevMsgService]
+Finished creating instance of bean 'revMsgGen'
+Creating shared instance of singleton bean 'binDao'
+Creating instance of bean 'binDao'
+Eagerly caching bean 'binDao' to allow for resolving potential circular references
+Finished creating instance of bean 'binDao'
+Creating shared instance of singleton bean 'binService'
+Creating instance of bean 'binService'
+Eagerly caching bean 'binService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'binDao'
+Getting BeanInfo for class [com.bcnx.data.service.BinServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.BinServiceImp]
+Found bean property 'bin'
+Found bean property 'binDao' of type [com.bcnx.data.dao.BinDao]
+Found bean property 'binList' of type [[Ljava.lang.String;]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'binService'
+Creating shared instance of singleton bean 'memberDao'
+Creating instance of bean 'memberDao'
+Eagerly caching bean 'memberDao' to allow for resolving potential circular references
+Finished creating instance of bean 'memberDao'
+Creating shared instance of singleton bean 'memberService'
+Creating instance of bean 'memberService'
+Eagerly caching bean 'memberService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'memberDao'
+Getting BeanInfo for class [com.bcnx.data.service.MemberServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.MemberServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'member'
+Found bean property 'memberDao' of type [com.bcnx.data.dao.MemberDao]
+Found bean property 'members' of type [java.util.List]
+Finished creating instance of bean 'memberService'
+Creating shared instance of singleton bean 'netWkDao'
+Creating instance of bean 'netWkDao'
+Eagerly caching bean 'netWkDao' to allow for resolving potential circular references
+Finished creating instance of bean 'netWkDao'
+Creating shared instance of singleton bean 'netWkService'
+Creating instance of bean 'netWkService'
+Eagerly caching bean 'netWkService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netWkDao'
+Getting BeanInfo for class [com.bcnx.data.service.NetWkServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.NetWkServiceImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'netWkDao' of type [com.bcnx.data.dao.NetWkDao]
+Finished creating instance of bean 'netWkService'
+Creating shared instance of singleton bean 'cardAcctDao'
+Creating instance of bean 'cardAcctDao'
+Eagerly caching bean 'cardAcctDao' to allow for resolving potential circular references
+Finished creating instance of bean 'cardAcctDao'
+Creating shared instance of singleton bean 'cardAcctService'
+Creating instance of bean 'cardAcctService'
+Eagerly caching bean 'cardAcctService' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cardAcctDao'
+Getting BeanInfo for class [com.bcnx.data.service.CardAcctServiceImp]
+Caching PropertyDescriptors for class [com.bcnx.data.service.CardAcctServiceImp]
+Found bean property 'cardAcctDao' of type [com.bcnx.data.dao.CardAcctDao]
+Found bean property 'cardAccts' of type [java.util.List]
+Found bean property 'class' of type [java.lang.Class]
+Finished creating instance of bean 'cardAcctService'
+Creating shared instance of singleton bean 'balResMsgBuilder'
+Creating instance of bean 'balResMsgBuilder'
+Eagerly caching bean 'balResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'balResMsgBuilder'
+Creating shared instance of singleton bean 'cwdResMsgBuilder'
+Creating instance of bean 'cwdResMsgBuilder'
+Eagerly caching bean 'cwdResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'cwdResMsgBuilder'
+Creating shared instance of singleton bean 'netResMsgBuilder'
+Creating instance of bean 'netResMsgBuilder'
+Eagerly caching bean 'netResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'netResMsgBuilder'
+Creating shared instance of singleton bean 'revResMsgBuilder'
+Creating instance of bean 'revResMsgBuilder'
+Eagerly caching bean 'revResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'revResMsgBuilder'
+Creating shared instance of singleton bean 'excResMsgBuilder'
+Creating instance of bean 'excResMsgBuilder'
+Eagerly caching bean 'excResMsgBuilder' to allow for resolving potential circular references
+Finished creating instance of bean 'excResMsgBuilder'
+Creating shared instance of singleton bean 'netResMsgChecker'
+Creating instance of bean 'netResMsgChecker'
+Eagerly caching bean 'netResMsgChecker' to allow for resolving potential circular references
+Creating shared instance of singleton bean 'excResMsgChecker'
+Creating instance of bean 'excResMsgChecker'
+Eagerly caching bean 'excResMsgChecker' to allow for resolving potential circular references
+Finished creating instance of bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.NetResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.NetResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'netResMsgChecker'
+Creating shared instance of singleton bean 'balResMsgChecker'
+Creating instance of bean 'balResMsgChecker'
+Eagerly caching bean 'balResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.BalResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.BalResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'balResMsgChecker'
+Creating shared instance of singleton bean 'cwdResMsgChecker'
+Creating instance of bean 'cwdResMsgChecker'
+Eagerly caching bean 'cwdResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'cwdResMsgChecker'
+Creating shared instance of singleton bean 'revResMsgChecker'
+Creating instance of bean 'revResMsgChecker'
+Eagerly caching bean 'revResMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgChecker'
+Getting BeanInfo for class [com.bcnx.message.checker.response.RevResChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.response.RevResChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+Finished creating instance of bean 'revResMsgChecker'
+Returning cached instance of singleton bean 'excResMsgChecker'
+Creating shared instance of singleton bean 'balMsgChecker'
+Creating instance of bean 'balMsgChecker'
+Eagerly caching bean 'balMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'balResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.BalMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.BalMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'cwdMsgChecker'
+Creating instance of bean 'cwdMsgChecker'
+Eagerly caching bean 'cwdMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'cwdResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.CwdMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.CwdMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'revMsgChecker'
+Creating instance of bean 'revMsgChecker'
+Eagerly caching bean 'revMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'revResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.RevMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RevMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Creating shared instance of singleton bean 'excMsgChecker'
+Creating instance of bean 'excMsgChecker'
+Eagerly caching bean 'excMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.ExcMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.ExcMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Finished creating instance of bean 'excMsgChecker'
+Finished creating instance of bean 'revMsgChecker'
+Finished creating instance of bean 'cwdMsgChecker'
+Finished creating instance of bean 'balMsgChecker'
+Returning cached instance of singleton bean 'cwdMsgChecker'
+Creating shared instance of singleton bean 'netMsgChecker'
+Creating instance of bean 'netMsgChecker'
+Eagerly caching bean 'netMsgChecker' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'netResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.NetMsgChecker]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.NetMsgChecker]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Returning cached instance of singleton bean 'balMsgChecker'
+Finished creating instance of bean 'netMsgChecker'
+Returning cached instance of singleton bean 'revMsgChecker'
+Returning cached instance of singleton bean 'excMsgChecker'
+Creating shared instance of singleton bean 'routingValidation'
+Creating instance of bean 'routingValidation'
+Eagerly caching bean 'routingValidation' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'binService'
+Getting BeanInfo for class [com.bcnx.message.checker.request.RoutingValidationImp]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RoutingValidationImp]
+Found bean property 'binService' of type [com.bcnx.data.service.BinService]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'memberService' of type [com.bcnx.data.service.MemberService]
+Returning cached instance of singleton bean 'memberService'
+Finished creating instance of bean 'routingValidation'
+Creating shared instance of singleton bean 'verifyMsgSpec'
+Creating instance of bean 'verifyMsgSpec'
+Eagerly caching bean 'verifyMsgSpec' to allow for resolving potential circular references
+Returning cached instance of singleton bean 'excResMsgBuilder'
+Getting BeanInfo for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+Caching PropertyDescriptors for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+Found bean property 'class' of type [java.lang.Class]
+Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+Found bean property 'routingInfoValidation' of type [com.bcnx.message.checker.request.RoutingValidation]
+Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+Returning cached instance of singleton bean 'routingValidation'
+Returning cached instance of singleton bean 'netMsgChecker'
+Finished creating instance of bean 'verifyMsgSpec'
+Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@6a01f32e]
+Returning cached instance of singleton bean 'lifecycleProcessor'
+Publishing event in org.springframework.context.support.FileSystemXmlApplicationContext@3721bae0: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.FileSystemXmlApplicationContext@3721bae0: startup date [Mon Oct 26 15:45:37 ICT 2015]; root of context hierarchy]
+getProperty("spring.liveBeansView.mbeanDomain", String)
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'cardAcctService'
+Returning cached instance of singleton bean 'memberService'
+Returning cached instance of singleton bean 'binService'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'
+Returning cached instance of singleton bean 'netMsgGen'

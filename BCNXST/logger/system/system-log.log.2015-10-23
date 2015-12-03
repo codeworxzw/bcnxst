@@ -1,0 +1,462 @@
+0    [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Initializing new StandardEnvironment
+4    [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Adding [systemProperties] PropertySource with lowest search precedence
+5    [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Adding [systemEnvironment] PropertySource with lowest search precedence
+5    [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+9    [AWT-EventQueue-0] INFO  org.springframework.context.support.FileSystemXmlApplicationContext  - Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@319c4657: startup date [Fri Oct 23 13:16:48 ICT 2015]; root of context hierarchy
+38   [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Initializing new StandardEnvironment
+38   [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Adding [systemProperties] PropertySource with lowest search precedence
+38   [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Adding [systemEnvironment] PropertySource with lowest search precedence
+39   [AWT-EventQueue-0] DEBUG org.springframework.core.env.StandardEnvironment  - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+45   [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\configuration.xml]
+47   [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+158  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+158  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Loading schema mappings from [META-INF/spring.schemas]
+161  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.2.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.2.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.2.xsd=org/springframework/beans/factory/xml/spring-util-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.2.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.2.xsd=org/springframework/cache/config/spring-cache-3.2.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.2.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/aop/spring-aop-3.2.xsd=org/springframework/aop/config/spring-aop-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.2.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans-3.2.xsd=org/springframework/beans/factory/xml/spring-beans-3.2.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/task/spring-task-3.2.xsd=org/springframework/scheduling/config/spring-task-3.2.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.2.xsd=org/springframework/beans/factory/xml/spring-tool-3.2.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+164  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+251  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+257  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netMsgContext.xml]
+258  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+260  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+260  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+279  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+285  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 3 bean definitions from relative location [netMsgContext.xml]
+286  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\balMsgContext.xml]
+287  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+288  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+288  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+304  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+305  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 3 bean definitions from relative location [balMsgContext.xml]
+305  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cwdMsgContext.xml]
+307  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+308  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+308  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+322  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+323  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 3 bean definitions from relative location [cwdMsgContext.xml]
+323  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\revMsgContext.xml]
+324  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+325  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+325  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+339  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+340  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 3 bean definitions from relative location [revMsgContext.xml]
+340  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+341  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+342  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+342  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+354  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+354  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 2 bean definitions from relative location [binContext.xml]
+354  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+355  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+356  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+356  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+367  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+368  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 2 bean definitions from relative location [memberContext.xml]
+368  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\netWkContext.xml]
+369  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+370  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+370  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+381  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+382  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 2 bean definitions from relative location [netWkContext.xml]
+382  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\cardAcctContext.xml]
+383  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+384  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+384  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+394  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+395  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 2 bean definitions from relative location [cardAcctContext.xml]
+395  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+396  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+397  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+397  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+407  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+408  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 5 bean definitions from relative location [responseBuildContext.xml]
+408  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseCheckContext.xml]
+409  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+410  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+410  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+420  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+421  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 5 bean definitions from relative location [responseCheckContext.xml]
+421  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\requestCheckContext.xml]
+422  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+423  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+423  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+437  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+438  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]
+439  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+440  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+440  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+450  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+451  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'balResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.BalResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+451  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'cwdResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.CwdResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+451  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'netResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.NetResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+451  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'revResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.RevResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+452  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'excResMsgBuilder': replacing [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]] with [Generic bean: class [com.bcnx.message.service.response.ExcResMsgBuilder]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\responseBuildContext.xml]]
+452  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 0 bean definitions from relative location [responseBuildContext.xml]
+452  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]
+453  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+454  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+454  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+463  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+464  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binDao': replacing [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.dao.BinDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+464  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'binService': replacing [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]] with [Generic bean: class [com.bcnx.data.service.BinServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\binContext.xml]]
+464  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 0 bean definitions from relative location [binContext.xml]
+464  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loading XML bean definitions from file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]
+465  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultDocumentLoader  - Using JAXP provider [org.apache.xerces.jaxp.DocumentBuilderFactoryImpl]
+466  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Trying to resolve XML entity with public id [null] and system id [http://www.springframework.org/schema/beans/spring-beans.xsd]
+467  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.PluggableSchemaResolver  - Found XML schema [http://www.springframework.org/schema/beans/spring-beans.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.2.xsd
+476  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Loading bean definitions
+477  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberDao': replacing [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.dao.MemberDaoImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+477  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Overriding bean definition for bean 'memberService': replacing [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]] with [Generic bean: class [com.bcnx.data.service.MemberServiceImp]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [D:\Server\WWW\BCNXST\BCNXST\connext\memberContext.xml]]
+477  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 0 bean definitions from relative location [memberContext.xml]
+479  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.DefaultBeanDefinitionDocumentReader  - Imported 7 bean definitions from relative location [requestCheckContext.xml]
+480  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.xml.XmlBeanDefinitionReader  - Loaded 37 bean definitions from location pattern [connext/configuration.xml]
+480  [AWT-EventQueue-0] DEBUG org.springframework.context.support.FileSystemXmlApplicationContext  - Bean factory for org.springframework.context.support.FileSystemXmlApplicationContext@319c4657: org.springframework.beans.factory.support.DefaultListableBeanFactory@59567243: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+525  [AWT-EventQueue-0] DEBUG org.springframework.context.support.FileSystemXmlApplicationContext  - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@3c876ed7]
+527  [AWT-EventQueue-0] DEBUG org.springframework.context.support.FileSystemXmlApplicationContext  - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@343f893e]
+534  [AWT-EventQueue-0] INFO  org.springframework.beans.factory.support.DefaultListableBeanFactory  - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59567243: defining beans [netMsgDao,netMsgService,netMsgGen,balMsgDao,balMsgService,balMsgGen,cwdMsgDao,cwdMsgService,cwdMsgGen,revMsgDao,revMsgService,revMsgGen,binDao,binService,memberDao,memberService,netWkDao,netWkService,cardAcctDao,cardAcctService,balResMsgBuilder,cwdResMsgBuilder,netResMsgBuilder,revResMsgBuilder,excResMsgBuilder,netResMsgChecker,balResMsgChecker,cwdResMsgChecker,revResMsgChecker,excResMsgChecker,balMsgChecker,cwdMsgChecker,netMsgChecker,revMsgChecker,excMsgChecker,routingValidation,verifyMsgSpec]; root of factory hierarchy
+534  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netMsgDao'
+535  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netMsgDao'
+547  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netMsgDao' to allow for resolving potential circular references
+549  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netMsgDao'
+549  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netMsgService'
+549  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netMsgService'
+549  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netMsgService' to allow for resolving potential circular references
+556  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netMsgDao'
+559  [AWT-EventQueue-0] DEBUG org.springframework.core.io.support.SpringFactoriesLoader  - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+560  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.NetMsgServiceImp]
+562  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.NetMsgServiceImp]
+562  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+563  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de70' of type [java.lang.String]
+563  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'netMsgDao' of type [com.bcnx.data.dao.NetMsgDao]
+569  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netMsgService'
+569  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netMsgGen'
+569  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netMsgGen'
+570  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netMsgGen' to allow for resolving potential circular references
+570  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netMsgService'
+570  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.service.request.NetMsgGenImp]
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.service.request.NetMsgGenImp]
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'netMsgService' of type [com.bcnx.data.service.NetMsgService]
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netMsgGen'
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'balMsgDao'
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'balMsgDao'
+572  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'balMsgDao' to allow for resolving potential circular references
+573  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'balMsgDao'
+573  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'balMsgService'
+573  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'balMsgService'
+573  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'balMsgService' to allow for resolving potential circular references
+573  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'balMsgDao'
+573  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.BalMsgServiceImp]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.BalMsgServiceImp]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'balMsgDao' of type [com.bcnx.data.dao.BalMsgDao]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de02' of type [java.lang.String]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de03' of type [java.lang.String]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de04' of type [java.lang.String]
+575  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de18' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de19' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de22' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de25' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de28' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de32' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de41' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de42' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de43' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de49' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de52' of type [java.lang.String]
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'balMsgService'
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'balMsgGen'
+576  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'balMsgGen'
+577  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'balMsgGen' to allow for resolving potential circular references
+577  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'balMsgService'
+577  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.service.request.BalMsgGenImp]
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.service.request.BalMsgGenImp]
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'balMsgService' of type [com.bcnx.data.service.BalMsgService]
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'balMsgGen'
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cwdMsgDao'
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cwdMsgDao'
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cwdMsgDao' to allow for resolving potential circular references
+578  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cwdMsgDao'
+579  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cwdMsgService'
+579  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cwdMsgService'
+579  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cwdMsgService' to allow for resolving potential circular references
+579  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cwdMsgDao'
+579  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.CwdMsgServiceImp]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.CwdMsgServiceImp]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'cwdMsgDao' of type [com.bcnx.data.dao.CwdMsgDao]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de02' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de03' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de04' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de18' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de19' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de22' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de25' of type [java.lang.String]
+581  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de28' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de32' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de41' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de42' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de43' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de49' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de52' of type [java.lang.String]
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cwdMsgService'
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cwdMsgGen'
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cwdMsgGen'
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cwdMsgGen' to allow for resolving potential circular references
+582  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cwdMsgService'
+583  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.service.request.CwdMsgGenImp]
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.service.request.CwdMsgGenImp]
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'cwdMsgService' of type [com.bcnx.data.service.CwdMsgService]
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cwdMsgGen'
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'revMsgDao'
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'revMsgDao'
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'revMsgDao' to allow for resolving potential circular references
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'revMsgDao'
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'revMsgService'
+584  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'revMsgService'
+585  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'revMsgService' to allow for resolving potential circular references
+585  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'revMsgDao'
+585  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.RevMsgServiceImp]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.RevMsgServiceImp]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de02' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de03' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de04' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de18' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de19' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de22' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de25' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de28' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de32' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de39' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de41' of type [java.lang.String]
+587  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de42' of type [java.lang.String]
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de43' of type [java.lang.String]
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'de49' of type [java.lang.String]
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'revMsgDao' of type [com.bcnx.data.dao.RevMsgDao]
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'revMsgService'
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'revMsgGen'
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'revMsgGen'
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'revMsgGen' to allow for resolving potential circular references
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'revMsgService'
+588  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.service.request.RevMsgGenImp]
+589  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.service.request.RevMsgGenImp]
+589  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+589  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'revMsgService' of type [com.bcnx.data.service.RevMsgService]
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'revMsgGen'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'binDao'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'binDao'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'binDao' to allow for resolving potential circular references
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'binDao'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'binService'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'binService'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'binService' to allow for resolving potential circular references
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'binDao'
+590  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.BinServiceImp]
+592  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.BinServiceImp]
+592  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'bin'
+592  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'binDao' of type [com.bcnx.data.dao.BinDao]
+592  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'binList' of type [[Ljava.lang.String;]
+592  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'binService'
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'memberDao'
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'memberDao'
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'memberDao' to allow for resolving potential circular references
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'memberDao'
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'memberService'
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'memberService'
+600  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'memberService' to allow for resolving potential circular references
+601  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'memberDao'
+601  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.MemberServiceImp]
+602  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.MemberServiceImp]
+602  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+602  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'member'
+602  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'memberDao' of type [com.bcnx.data.dao.MemberDao]
+602  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'members' of type [java.util.List]
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'memberService'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netWkDao'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netWkDao'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netWkDao' to allow for resolving potential circular references
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netWkDao'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netWkService'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netWkService'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netWkService' to allow for resolving potential circular references
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netWkDao'
+603  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.NetWkServiceImp]
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.NetWkServiceImp]
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'netWkDao' of type [com.bcnx.data.dao.NetWkDao]
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netWkService'
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cardAcctDao'
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cardAcctDao'
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cardAcctDao' to allow for resolving potential circular references
+605  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cardAcctDao'
+606  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cardAcctService'
+606  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cardAcctService'
+606  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cardAcctService' to allow for resolving potential circular references
+606  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cardAcctDao'
+606  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.data.service.CardAcctServiceImp]
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.data.service.CardAcctServiceImp]
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'cardAcctDao' of type [com.bcnx.data.dao.CardAcctDao]
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'cardAccts' of type [java.util.List]
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cardAcctService'
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'balResMsgBuilder'
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'balResMsgBuilder'
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'balResMsgBuilder' to allow for resolving potential circular references
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'balResMsgBuilder'
+608  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cwdResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cwdResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cwdResMsgBuilder' to allow for resolving potential circular references
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cwdResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netResMsgBuilder' to allow for resolving potential circular references
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'revResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'revResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'revResMsgBuilder' to allow for resolving potential circular references
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'revResMsgBuilder'
+609  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'excResMsgBuilder'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'excResMsgBuilder'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'excResMsgBuilder' to allow for resolving potential circular references
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'excResMsgBuilder'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netResMsgChecker'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netResMsgChecker'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netResMsgChecker' to allow for resolving potential circular references
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'excResMsgChecker'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'excResMsgChecker'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'excResMsgChecker' to allow for resolving potential circular references
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'excResMsgChecker'
+610  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.response.NetResMsgChecker]
+612  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.response.NetResMsgChecker]
+612  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+612  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+613  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netResMsgChecker'
+613  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'balResMsgChecker'
+613  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'balResMsgChecker'
+613  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'balResMsgChecker' to allow for resolving potential circular references
+613  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excResMsgChecker'
+613  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.response.BalResMsgChecker]
+614  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.response.BalResMsgChecker]
+614  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+614  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+615  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'balResMsgChecker'
+615  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cwdResMsgChecker'
+615  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cwdResMsgChecker'
+615  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cwdResMsgChecker' to allow for resolving potential circular references
+615  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excResMsgChecker'
+615  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+616  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.response.CwdResMsgChecker]
+616  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+616  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+616  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cwdResMsgChecker'
+617  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'revResMsgChecker'
+617  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'revResMsgChecker'
+617  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'revResMsgChecker' to allow for resolving potential circular references
+617  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excResMsgChecker'
+617  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.response.RevResChecker]
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.response.RevResChecker]
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'resMsgChecker' of type [com.bcnx.message.checker.response.ResMsgChecker]
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'revResMsgChecker'
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excResMsgChecker'
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'balMsgChecker'
+618  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'balMsgChecker'
+619  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'balMsgChecker' to allow for resolving potential circular references
+619  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'balResMsgBuilder'
+619  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.BalMsgChecker]
+620  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.BalMsgChecker]
+620  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+620  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+620  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+621  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'cwdMsgChecker'
+621  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'cwdMsgChecker'
+621  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'cwdMsgChecker' to allow for resolving potential circular references
+621  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cwdResMsgBuilder'
+621  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.CwdMsgChecker]
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.CwdMsgChecker]
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'revMsgChecker'
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'revMsgChecker'
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'revMsgChecker' to allow for resolving potential circular references
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'revResMsgBuilder'
+623  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.RevMsgChecker]
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RevMsgChecker]
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'excMsgChecker'
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'excMsgChecker'
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'excMsgChecker' to allow for resolving potential circular references
+625  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excResMsgBuilder'
+626  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.ExcMsgChecker]
+627  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.ExcMsgChecker]
+627  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+627  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+627  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'excMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'revMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'cwdMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'balMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cwdMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'netMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'netMsgChecker'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'netMsgChecker' to allow for resolving potential circular references
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netResMsgBuilder'
+628  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.NetMsgChecker]
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.NetMsgChecker]
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'balMsgChecker'
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'netMsgChecker'
+630  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'revMsgChecker'
+631  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excMsgChecker'
+631  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'routingValidation'
+631  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'routingValidation'
+631  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'routingValidation' to allow for resolving potential circular references
+631  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'binService'
+631  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.RoutingValidationImp]
+632  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.RoutingValidationImp]
+632  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'binService' of type [com.bcnx.data.service.BinService]
+632  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+632  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'memberService' of type [com.bcnx.data.service.MemberService]
+632  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'memberService'
+633  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'routingValidation'
+633  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'verifyMsgSpec'
+633  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Creating instance of bean 'verifyMsgSpec'
+633  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Eagerly caching bean 'verifyMsgSpec' to allow for resolving potential circular references
+633  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'excResMsgBuilder'
+633  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Getting BeanInfo for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+634  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Caching PropertyDescriptors for class [com.bcnx.message.checker.request.VerifyMsgSpecImp]
+634  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'class' of type [java.lang.Class]
+634  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'messageChecker' of type [com.bcnx.message.checker.request.MessageChecker]
+634  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'routingInfoValidation' of type [com.bcnx.message.checker.request.RoutingValidation]
+634  [AWT-EventQueue-0] DEBUG org.springframework.beans.CachedIntrospectionResults  - Found bean property 'writeISOMessage' of type [com.bcnx.message.service.response.WriteISOMessage]
+635  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'routingValidation'
+635  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netMsgChecker'
+635  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Finished creating instance of bean 'verifyMsgSpec'
+636  [AWT-EventQueue-0] DEBUG org.springframework.context.support.FileSystemXmlApplicationContext  - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5fdfe483]
+636  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'lifecycleProcessor'
+636  [AWT-EventQueue-0] DEBUG org.springframework.context.support.FileSystemXmlApplicationContext  - Publishing event in org.springframework.context.support.FileSystemXmlApplicationContext@319c4657: org.springframework.context.event.ContextRefreshedEvent[source=org.springframework.context.support.FileSystemXmlApplicationContext@319c4657: startup date [Fri Oct 23 13:16:48 ICT 2015]; root of context hierarchy]
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver  - getProperty("spring.liveBeansView.mbeanDomain", String)
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver  - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver  - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.SystemEnvironmentPropertySource  - PropertySource [systemEnvironment] does not contain 'spring.liveBeansView.mbeanDomain'
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.SystemEnvironmentPropertySource  - PropertySource [systemEnvironment] does not contain 'spring_liveBeansView_mbeanDomain'
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.SystemEnvironmentPropertySource  - PropertySource [systemEnvironment] does not contain 'SPRING.LIVEBEANSVIEW.MBEANDOMAIN'
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.SystemEnvironmentPropertySource  - PropertySource [systemEnvironment] does not contain 'SPRING_LIVEBEANSVIEW_MBEANDOMAIN'
+638  [AWT-EventQueue-0] DEBUG org.springframework.core.env.PropertySourcesPropertyResolver  - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+638  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cardAcctService'
+638  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'balMsgService'
+638  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'memberService'
+727  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cardAcctService'
+727  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cwdMsgService'
+727  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'memberService'
+751  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'cardAcctService'
+751  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'revMsgService'
+751  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'memberService'
+923  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netWkService'
+925  [AWT-EventQueue-0] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory  - Returning cached instance of singleton bean 'netMsgService'

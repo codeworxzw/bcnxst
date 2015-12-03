@@ -12,6 +12,7 @@ public class CwdMsgChecker extends MessageCheckerImp implements MessageChecker{
 	private static final Logger logger = Logger.getLogger(CwdMsgChecker.class);
 	private static final String TYPE = "01";
 	private static final int[] fields = {2,3,4,7,11,12,13,14,15,18,19,22,25,28,32,35,37,41,42,43,49,52};
+	//private static final int[] fields = {2,3,4,7,11,12,13,14,15,18,22,25,28,32,35,37,41,42,43,49,52};
 	private WriteISOMessage writeISOMessage;
 	private MessageChecker messageChecker;
 	public void setMessageChecker(MessageChecker messageChecker){

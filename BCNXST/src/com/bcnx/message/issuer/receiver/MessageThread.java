@@ -15,7 +15,7 @@ import com.bcnx.application.utility.UtilPackage;
 import com.bcnx.message.checker.request.VerifyMsgSpec;
 import com.bcnx.message.service.request.MessageDefinition;
 
-public class MessageThread implements Runnable{
+public class MessageThread{
 	private static final Logger logger = Logger.getLogger(MessageThread.class);
 	protected Socket socket;
 	private VerifyMsgSpec verifyMsgSpec;
@@ -27,11 +27,11 @@ public class MessageThread implements Runnable{
 		this.requestArea = requestArea;
 		this.responseArea = responseArea;
 	}
-	@Override
+	
 	public void run() {	
 		try {
 			byte[] data = readBytes();
-			//byte[] data = UtilPackage.extractMessage(incoming);
+			// byte[] data = UtilPackage.extractMessage(incoming);
 			ISOMsg isoMsg = new ISOMsg();
 			isoMsg.setPackager(MessageDefinition.getGenericPackager());
 			isoMsg.unpack(data);
@@ -41,16 +41,16 @@ public class MessageThread implements Runnable{
 			UtilPackage.printRequest(incoming);
 			UtilPackage.printDump(data);
 			UtilPackage.printLogger(isoMsg);
-			
+
 			// output to console
-			String data1 = UtilPackage.printRaw(data)+"\r\n";
-			String data2 = UtilPackage.printDumpString(data)+"\r\n";
+			String data1 = UtilPackage.printRaw(data) + "\r\n";
+			String data2 = UtilPackage.printDumpString(data) + "\r\n";
 			String data3 = UtilPackage.printLoggerString(isoMsg);
 			requestArea.setText("\r\n>>>>>>>>>>>>> REQUEST <<<<<<<<<<<<<\r\n");
 			requestArea.append(data1);
 			requestArea.append(data2);
 			requestArea.append(data3);
-			
+
 			// validate message format
 			byte[] output = verifyMsgSpec.checkMsg(isoMsg);
 			byte[] resBytes = UtilPackage.extractMessage(output);
@@ -60,9 +60,9 @@ public class MessageThread implements Runnable{
 			UtilPackage.printResponse(output);
 			UtilPackage.printDump(output);
 			UtilPackage.printLogger(resIsoMsg);
-			
-			data1 = UtilPackage.printRaw(output)+"\r\n";
-			data2 = UtilPackage.printDumpString(resBytes)+"\r\n";
+
+			data1 = UtilPackage.printRaw(output) + "\r\n";
+			data2 = UtilPackage.printDumpString(resBytes) + "\r\n";
 			data3 = UtilPackage.printLoggerString(resIsoMsg);
 			responseArea.setText("\r\n>>>>>>>>>> RESPONSE <<<<<<<<<<\r\n");
 			responseArea.append(data1);
@@ -71,9 +71,11 @@ public class MessageThread implements Runnable{
 			sendBytes(output);
 			logger.info("\r\n============= Transaction End =============\r\n");
 		} catch (IOException e) {
-			logger.debug("IOException occur while processing message request", e);
+			logger.debug("IOException occur while processing message request",
+					e);
 		} catch (ISOException e) {
-			logger.debug("ISOException occur while processing message request",e);
+			logger.debug("ISOException occur while processing message request",
+					e);
 		}
 	}
 	private void sendBytes(byte[] data) throws IOException{
